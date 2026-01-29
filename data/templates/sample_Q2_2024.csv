@@ -1,0 +1,13 @@
+date,task_type,description,hours_spent,materials_cost,technician_name,location,priority,notes
+2024-04-05,electrician,Replace faulty circuit breaker,2.0,180.0,John Smith,Building A,High,Safety issue
+2024-04-10,plumber,Fix water heater leak,3.5,250.0,Jane Doe,Building C,High,Emergency repair
+2024-04-15,hvac_technician,AC tune-up,2.5,75.0,Bob Johnson,Building B,Medium,Preventive maintenance
+2024-04-20,carpenter,Repair deck railing,4.0,125.0,Mike Wilson,Building A - Deck,Medium,Safety compliance
+2024-04-25,painter,Interior room painting,8.0,320.0,Sarah Davis,Building C - Office 201,Low,Aesthetic upgrade
+2024-05-01,electrician,Install new outlets,1.5,95.0,John Smith,Building B,Medium,Code compliance
+2024-05-08,general_handyman,Fix loose door handles,0.75,15.0,Tom Brown,Building A,Low,Routine fix
+2024-05-15,plumber,Unclog kitchen sink,1.0,25.0,Jane Doe,Building C,High,Emergency call
+2024-05-22,landscaper,Spring cleanup,5.0,65.0,Green Team,Exterior - All,Low,Seasonal work
+2024-05-29,carpenter,Build storage bench,6.0,280.0,Mike Wilson,Building B,Medium,Custom project
+2024-06-03,electrician,Emergency light repair,1.5,55.0,John Smith,Building A,High,After hours
+2024-06-10,hvac_technician,Replace air filter,1.5,45.0,Bob Johnson,Building C,Medium,Routine maintenance
