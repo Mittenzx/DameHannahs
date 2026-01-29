@@ -1,0 +1,2 @@
+date,task_type,description,hours_spent,materials_cost,technician_name,location,priority,notes
+2024-01-01,electrician,Example task description,1.0,0.00,Tech Name,Location,Medium,Optional notes

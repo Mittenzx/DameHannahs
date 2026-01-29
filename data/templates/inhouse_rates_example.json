@@ -1,0 +1,10 @@
+{
+  "electrician": 45.00,
+  "plumber": 48.00,
+  "hvac_technician": 50.00,
+  "carpenter": 42.00,
+  "general_handyman": 35.00,
+  "painter": 30.00,
+  "landscaper": 28.00,
+  "other": 38.00
+}
