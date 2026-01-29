@@ -2,7 +2,7 @@
 Cost Analysis Module
 Calculates cost savings comparing in-house maintenance vs contractor rates
 """
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Any
 import pandas as pd
 from models import MaintenanceLog
 from config import DEFAULT_MARKET_RATES, DEFAULT_INHOUSE_RATES, OUTPUT_DIR
@@ -44,6 +44,7 @@ class CostAnalyzer:
             Hourly rate for the task type
         """
         task_type = task_type.lower().strip()
+        # Use 'other' as fallback if task type not found
         return rate_dict.get(task_type, rate_dict.get('other', 70.00))
     
     def analyze_log(self, log: MaintenanceLog) -> Dict[str, float]:
@@ -62,7 +63,8 @@ class CostAnalyzer:
         inhouse_cost = log.calculate_inhouse_cost(inhouse_rate)
         contractor_cost = log.calculate_contractor_cost(market_rate)
         savings = log.calculate_savings(inhouse_rate, market_rate)
-        savings_percentage = (savings / contractor_cost * 100) if contractor_cost > 0 else 0
+        # Avoid division by zero
+        savings_percentage = (savings / contractor_cost * 100) if contractor_cost > 0 else 0.0
         
         return {
             'date': log.date.strftime("%Y-%m-%d"),
@@ -93,7 +95,7 @@ class CostAnalyzer:
         results = [self.analyze_log(log) for log in logs]
         return pd.DataFrame(results)
     
-    def generate_summary(self, analysis_df: pd.DataFrame) -> Dict[str, any]:
+    def generate_summary(self, analysis_df: pd.DataFrame) -> Dict[str, Any]:
         """
         Generate summary statistics from analysis results
         
@@ -167,7 +169,7 @@ class CostAnalyzer:
         print(f"Analysis exported to: {output_path}")
         return output_path
     
-    def print_summary(self, summary: Dict[str, any]):
+    def print_summary(self, summary: Dict[str, Any]):
         """
         Print a formatted summary to console
         

@@ -15,7 +15,19 @@ def load_rates_from_json(filepath: str) -> dict:
     """Load custom rates from a JSON file"""
     try:
         with open(filepath, 'r') as f:
-            return json.load(f)
+            rates = json.load(f)
+        
+        # Validate that all values are numeric and positive
+        if not isinstance(rates, dict):
+            raise ValueError("Rates file must contain a JSON object (dictionary)")
+        
+        for task_type, rate in rates.items():
+            if not isinstance(rate, (int, float)):
+                raise ValueError(f"Rate for '{task_type}' must be numeric, got: {type(rate).__name__}")
+            if rate < 0:
+                raise ValueError(f"Rate for '{task_type}' cannot be negative: {rate}")
+        
+        return rates
     except Exception as e:
         print(f"Error loading rates from {filepath}: {e}")
         sys.exit(1)

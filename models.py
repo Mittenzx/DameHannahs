@@ -26,8 +26,19 @@ class MaintenanceLog:
         self.date = date
         self.task_type = task_type.lower().strip()
         self.description = description
-        self.hours_spent = float(hours_spent)
-        self.materials_cost = float(materials_cost)
+        
+        # Validate and set hours_spent
+        hours_spent = float(hours_spent)
+        if hours_spent < 0:
+            raise ValueError(f"hours_spent cannot be negative: {hours_spent}")
+        self.hours_spent = hours_spent
+        
+        # Validate and set materials_cost
+        materials_cost = float(materials_cost)
+        if materials_cost < 0:
+            raise ValueError(f"materials_cost cannot be negative: {materials_cost}")
+        self.materials_cost = materials_cost
+        
         self.technician_name = technician_name
         self.location = location
         self.priority = priority
@@ -39,7 +50,11 @@ class MaintenanceLog:
         return labor_cost + self.materials_cost
     
     def calculate_contractor_cost(self, hourly_rate: float) -> float:
-        """Calculate total contractor cost (labor + materials)"""
+        """
+        Calculate total contractor cost (labor + materials)
+        Note: Currently uses same calculation as in-house for labor.
+        Future enhancement: Add contractor markup/overhead percentage.
+        """
         labor_cost = self.hours_spent * hourly_rate
         return labor_cost + self.materials_cost
     

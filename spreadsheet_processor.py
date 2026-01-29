@@ -51,9 +51,10 @@ class SpreadsheetProcessor:
     def validate_columns(self, df: pd.DataFrame) -> bool:
         """
         Validate that the DataFrame has all required columns
+        Note: This method normalizes column names in place
         
         Args:
-            df: pandas DataFrame to validate
+            df: pandas DataFrame to validate (modified in place)
             
         Returns:
             True if valid, False otherwise

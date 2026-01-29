@@ -77,15 +77,23 @@ def validate_file(filepath: str):
     if 'hours_spent' in df.columns:
         try:
             df['hours_spent'] = df['hours_spent'].astype(float)
-            print(f"  ✓ hours_spent are numeric")
-        except:
+            # Check for negative values
+            if (df['hours_spent'] < 0).any():
+                print(f"  ⚠️  hours_spent contains negative values")
+            else:
+                print(f"  ✓ hours_spent are numeric")
+        except Exception:
             numeric_issues.append('hours_spent')
     
     if 'materials_cost' in df.columns:
         try:
             df['materials_cost'] = df['materials_cost'].astype(float)
-            print(f"  ✓ materials_cost are numeric")
-        except:
+            # Check for negative values
+            if (df['materials_cost'] < 0).any():
+                print(f"  ⚠️  materials_cost contains negative values")
+            else:
+                print(f"  ✓ materials_cost are numeric")
+        except Exception:
             numeric_issues.append('materials_cost')
     
     if numeric_issues:
