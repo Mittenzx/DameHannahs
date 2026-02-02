@@ -75,10 +75,10 @@ def main():
             'File': summary['filename'],
             'Total Tasks': summary['total_tasks'],
             'Total Hours': f"{summary['total_hours']:.2f}",
-            'Materials Cost': f"${summary['total_materials_cost']:.2f}",
-            'In-House Cost': f"${summary['total_inhouse_cost']:.2f}",
-            'Contractor Cost': f"${summary['total_contractor_cost']:.2f}",
-            'Total Savings': f"${summary['total_savings']:.2f}",
+            'Materials Cost': f"£{summary['total_materials_cost']:.2f}",
+            'In-House Cost': f"£{summary['total_inhouse_cost']:.2f}",
+            'Contractor Cost': f"£{summary['total_contractor_cost']:.2f}",
+            'Total Savings': f"£{summary['total_savings']:.2f}",
             'Avg Savings %': f"{summary['average_savings_percentage']:.2f}%"
         })
     
@@ -99,10 +99,10 @@ def main():
     print("\nCOMBINED TOTALS:")
     print(f"  Total Tasks: {total_tasks}")
     print(f"  Total Hours: {total_hours:.2f}")
-    print(f"  Total Materials Cost: ${total_materials:.2f}")
-    print(f"  Total In-House Cost: ${total_inhouse:.2f}")
-    print(f"  Total Contractor Cost: ${total_contractor:.2f}")
-    print(f"  TOTAL SAVINGS: ${total_savings:.2f}")
+    print(f"  Total Materials Cost: £{total_materials:.2f}")
+    print(f"  Total In-House Cost: £{total_inhouse:.2f}")
+    print(f"  Total Contractor Cost: £{total_contractor:.2f}")
+    print(f"  TOTAL SAVINGS: £{total_savings:.2f}")
     if total_contractor > 0:
         overall_savings_pct = (total_savings / total_contractor * 100)
         print(f"  Overall Savings Percentage: {overall_savings_pct:.2f}%")

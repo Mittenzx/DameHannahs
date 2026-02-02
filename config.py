@@ -7,7 +7,7 @@ UPLOAD_DIR = "data/uploads"
 OUTPUT_DIR = "data/output"
 TEMPLATES_DIR = "data/templates"
 
-# Default market rates (per hour in USD)
+# Default market rates (per hour in GBP)
 DEFAULT_MARKET_RATES = {
     "electrician": 85.00,
     "plumber": 90.00,
@@ -19,7 +19,7 @@ DEFAULT_MARKET_RATES = {
     "other": 70.00
 }
 
-# Default in-house rates (per hour in USD)
+# Default in-house rates (per hour in GBP)
 # These are typically lower as they include salary costs divided by working hours
 DEFAULT_INHOUSE_RATES = {
     "electrician": 45.00,

@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python analyze_jobs_list.py jobstotal.xlsx
 ```
 
-**Result:** Automatically categorizes 2,841+ jobs and estimates $403,731+ in annual savings from having in-house staff vs calling contractors.
+**Result:** Automatically categorizes 2,841+ jobs and estimates £403,731+ in annual savings from having in-house staff vs calling contractors.
 
 See [SMART_ANALYSIS_GUIDE.md](SMART_ANALYSIS_GUIDE.md) for details.
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
    - `task_type` - Type of maintenance (e.g., electrician, plumber, hvac_technician)
    - `description` - Brief description of the work performed
    - `hours_spent` - Number of hours spent on the task
-   - `materials_cost` - Cost of materials used (in USD)
+   - `materials_cost` - Cost of materials used (in GBP)
 
    Optional columns:
    - `technician_name` - Name of the person who performed the work
@@ -141,7 +141,7 @@ The analysis generates an Excel file with three sheets:
 Edit `config.py` to adjust the hourly rates for your market:
 
 ```python
-# Market/Contractor rates (per hour in USD)
+# Market/Contractor rates (per hour in GBP)
 DEFAULT_MARKET_RATES = {
     "electrician": 85.00,
     "plumber": 90.00,
@@ -149,7 +149,7 @@ DEFAULT_MARKET_RATES = {
     # ... add more task types
 }
 
-# In-house rates (per hour in USD)
+# In-house rates (per hour in GBP)
 DEFAULT_INHOUSE_RATES = {
     "electrician": 45.00,
     "plumber": 48.00,
@@ -199,12 +199,12 @@ COST SAVINGS ANALYSIS SUMMARY
 ============================================================
 Total Tasks Analyzed: 15
 Total Hours Worked: 34.50
-Total Materials Cost: $1,605.00
+Total Materials Cost: £1,605.00
 
-In-House Total Cost: $3,069.00
-Contractor Total Cost: $4,447.50
+In-House Total Cost: £3,069.00
+Contractor Total Cost: £4,447.50
 
-TOTAL COST SAVINGS: $1,378.50
+TOTAL COST SAVINGS: £1,378.50
 Average Savings Percentage: 31.02%
 
 Tasks by Type:

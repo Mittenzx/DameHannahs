@@ -37,7 +37,7 @@ This will:
 
 **Important:** The converter uses default placeholder values:
 - Hours spent: 2.0 hours per job
-- Materials cost: $50.00 per job
+- Materials cost: £50.00 per job
 
 ### Step 2: Add Actual Time and Cost Data
 

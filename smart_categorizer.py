@@ -166,7 +166,7 @@ class JobCostEstimator:
         'other': 2.0             # Unknown/equipment
     }
     
-    # Typical materials cost by task type (in USD)
+    # Typical materials cost by task type (in GBP)
     TYPICAL_MATERIALS = {
         'electrician': 45.00,
         'plumber': 75.00,
@@ -237,7 +237,7 @@ class JobCostEstimator:
             task_type: Type of tradesperson needed
             
         Returns:
-            Estimated savings in USD
+            Estimated savings in GBP
         """
         _, _, contractor_total, inhouse_total = self.estimate_job_cost(task_type)
         return contractor_total - inhouse_total

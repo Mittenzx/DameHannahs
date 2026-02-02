@@ -121,14 +121,14 @@ def print_summary(summary: dict, results_df: pd.DataFrame):
     print("="*80)
     print(f"Total Jobs Analyzed: {summary['total_jobs']:,}")
     print(f"Estimated Total Hours: {summary['total_estimated_hours']:,.1f}")
-    print(f"Estimated Materials Cost: ${summary['total_materials_cost']:,.2f}")
+    print(f"Estimated Materials Cost: £{summary['total_materials_cost']:,.2f}")
     print()
-    print(f"Total Contractor Cost: ${summary['total_contractor_cost']:,.2f}")
+    print(f"Total Contractor Cost: £{summary['total_contractor_cost']:,.2f}")
     print(f"  (includes callout fees + hourly rates + materials)")
-    print(f"Total In-House Cost: ${summary['total_inhouse_cost']:,.2f}")
+    print(f"Total In-House Cost: £{summary['total_inhouse_cost']:,.2f}")
     print(f"  (hourly rates + materials, no callout fees)")
     print()
-    print(f"💰 TOTAL SAVINGS: ${summary['total_savings']:,.2f}")
+    print(f"💰 TOTAL SAVINGS: £{summary['total_savings']:,.2f}")
     print(f"📊 Average Savings: {summary['average_savings_pct']:.1f}%")
     print()
     
@@ -143,7 +143,7 @@ def print_summary(summary: dict, results_df: pd.DataFrame):
     for task_type, row in by_type.iterrows():
         jobs = int(row['job_number'])
         savings = row['savings']
-        print(f"  {task_type:20s}: {jobs:4d} jobs → ${savings:10,.2f} saved")
+        print(f"  {task_type:20s}: {jobs:4d} jobs → £{savings:10,.2f} saved")
     
     print("="*80)
 

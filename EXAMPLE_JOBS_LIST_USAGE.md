@@ -38,15 +38,15 @@ general_handyman     16
 
 The converter creates a CSV with these default values:
 - hours_spent: 2.0 hours (for all jobs)
-- materials_cost: $50.00 (for all jobs)
+- materials_cost: £50.00 (for all jobs)
 
 **You need to update these with actual data.** Here are your options:
 
 #### Option A: Estimate by Category
 Open the CSV in Excel and apply realistic averages:
-- Electrical work: 2-3 hours, $75 materials
-- Plumbing: 2-4 hours, $120 materials
-- HVAC: 3-5 hours, $85 materials
+- Electrical work: 2-3 hours, £75 materials
+- Plumbing: 2-4 hours, £120 materials
+- HVAC: 3-5 hours, £85 materials
 - etc.
 
 #### Option B: Use Historical Invoices
@@ -77,12 +77,12 @@ COST SAVINGS ANALYSIS SUMMARY
 ============================================================
 Total Tasks Analyzed: 2841
 Total Hours Worked: 5682.00
-Total Materials Cost: $142,050.00
+Total Materials Cost: £142,050.00
 
-In-House Total Cost: $392,487.00
-Contractor Total Cost: $542,622.00
+In-House Total Cost: £392,487.00
+Contractor Total Cost: £542,622.00
 
-TOTAL COST SAVINGS: $150,135.00
+TOTAL COST SAVINGS: £150,135.00
 Average Savings Percentage: 27.67%
 
 Tasks by Type:

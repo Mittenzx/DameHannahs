@@ -37,13 +37,13 @@ A major source of savings is **contractor callout fees**, which you avoid with i
 
 | Trade Type | Typical Callout Fee |
 |------------|---------------------|
-| Electrician | $75 |
-| Plumber | $85 |
-| HVAC Technician | $95 |
-| Carpenter | $65 |
-| Landscaper | $50 |
-| Handyman | $50 |
-| Painter | $0 (typically hourly only) |
+| Electrician | £75 |
+| Plumber | £85 |
+| HVAC Technician | £95 |
+| Carpenter | £65 |
+| Landscaper | £50 |
+| Handyman | £50 |
+| Painter | £0 (typically hourly only) |
 
 With 2,841 jobs, these callout fees alone represent significant savings!
 
@@ -105,11 +105,11 @@ Annual trends showing:
 From analyzing 2,841 completed jobs:
 
 ```
-💰 TOTAL SAVINGS: $403,731.50
+💰 TOTAL SAVINGS: £403,731.50
 📊 Average Savings: 51.3%
 
 Breakdown by Tradesperson Type:
-  other (equipment/specialist)  : 1,478 jobs → $205,442.00 saved
+  other (equipment/specialist)  : 1,478 jobs → £205,442.00 saved
   plumber                       :   462 jobs → $ 78,078.00 saved
   electrician                   :   414 jobs → $ 55,890.00 saved
   carpenter                     :   217 jobs → $ 35,588.00 saved
@@ -123,7 +123,7 @@ Breakdown by Tradesperson Type:
 
 The high savings percentage comes from:
 
-1. **Callout Fees** (25-30%): Contractors charge $50-$95 per visit, which in-house staff don't require
+1. **Callout Fees** (25-30%): Contractors charge £50-£95 per visit, which in-house staff don't require
 2. **Hourly Rates** (15-20%): In-house rates are lower than contractor rates
 3. **No Travel Time** (5-10%): In-house staff don't bill for travel
 4. **Bulk Materials** (5%): Organizations can buy materials at better prices
@@ -142,14 +142,14 @@ The high savings percentage comes from:
 
 ### Typical Materials Costs
 Based on industry averages for routine maintenance:
-- Electrical: $45
-- Plumbing: $75
-- HVAC: $85
-- Carpentry: $60
-- Painting: $35
-- Landscaping: $40
-- Handyman: $15
-- Other/Equipment: $50
+- Electrical: £45
+- Plumbing: £75
+- HVAC: £85
+- Carpentry: £60
+- Painting: £35
+- Landscaping: £40
+- Handyman: £15
+- Other/Equipment: £50
 
 ## Customizing Estimates
 

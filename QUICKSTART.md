@@ -19,12 +19,12 @@ COST SAVINGS ANALYSIS SUMMARY
 ============================================================
 Total Tasks Analyzed: 15
 Total Hours Worked: 34.50
-Total Materials Cost: $1605.00
+Total Materials Cost: £1605.00
 
-In-House Total Cost: $3036.00
-Contractor Total Cost: $4255.00
+In-House Total Cost: £3036.00
+Contractor Total Cost: £4255.00
 
-TOTAL COST SAVINGS: $1219.00
+TOTAL COST SAVINGS: £1219.00
 Average Savings Percentage: 30.19%
 ```
 
@@ -73,14 +73,14 @@ python analyze_with_custom_rates.py data/uploads/your_file.csv \
 ## Understanding Task Types
 
 The system recognizes these task types:
-- **electrician** - Electrical work (default market rate: $85/hr)
-- **plumber** - Plumbing work (default market rate: $90/hr)
-- **hvac_technician** - HVAC work (default market rate: $95/hr)
-- **carpenter** - Carpentry work (default market rate: $75/hr)
-- **general_handyman** - General maintenance (default market rate: $65/hr)
-- **painter** - Painting work (default market rate: $55/hr)
-- **landscaper** - Landscaping work (default market rate: $50/hr)
-- **other** - Anything else (default market rate: $70/hr)
+- **electrician** - Electrical work (default market rate: £85/hr)
+- **plumber** - Plumbing work (default market rate: £90/hr)
+- **hvac_technician** - HVAC work (default market rate: £95/hr)
+- **carpenter** - Carpentry work (default market rate: £75/hr)
+- **general_handyman** - General maintenance (default market rate: £65/hr)
+- **painter** - Painting work (default market rate: £55/hr)
+- **landscaper** - Landscaping work (default market rate: £50/hr)
+- **other** - Anything else (default market rate: £70/hr)
 
 Task types are case-insensitive and extra spaces are ignored.
 
