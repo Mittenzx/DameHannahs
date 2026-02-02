@@ -19,6 +19,7 @@ This system helps organizations:
 - ✅ **Detailed Reports**: Export comprehensive analysis to Excel with multiple sheets
 - ✅ **Summary Statistics**: Total savings, percentage savings, breakdown by task type
 - ✅ **Flexible Configuration**: Customizable hourly rates for different markets
+- ✅ **Jobs List Converter**: Convert existing jobs tracking data to analysis format
 
 ## 🚀 Quick Start
 
@@ -72,6 +73,24 @@ python analyze_maintenance_logs.py data/templates/sample_maintenance_logs.csv
 ```
 
 This will generate a detailed cost analysis report showing savings from in-house maintenance.
+
+## 🔄 Converting Existing Jobs Data
+
+If you have an existing jobs list or maintenance tracking system:
+
+1. **Convert your jobs list**:
+```bash
+python convert_jobs_list.py your_jobs_file.xlsx converted_logs.csv
+```
+
+2. **Add time and cost data**: Open the converted CSV and add actual `hours_spent` and `materials_cost` values
+
+3. **Run the analysis**:
+```bash
+python analyze_maintenance_logs.py converted_logs.csv
+```
+
+See [CONVERTING_JOBS_LIST.md](CONVERTING_JOBS_LIST.md) for detailed instructions on converting existing job tracking data.
 
 ## 📊 Understanding the Output
 
