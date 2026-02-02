@@ -13,8 +13,9 @@ This system helps organizations:
 
 ## 📋 Features
 
+- ✅ **Smart Job Analysis**: Automatically categorize jobs and estimate savings **without time tracking data**
 - ✅ **Spreadsheet Upload**: Support for CSV and Excel (.xlsx, .xls) files
-- ✅ **Cost Calculation**: Automatic calculation of in-house vs. contractor costs
+- ✅ **Cost Calculation**: Automatic calculation of in-house vs. contractor costs (including callout fees)
 - ✅ **Multiple Task Types**: Support for various maintenance categories (electrician, plumber, HVAC, carpenter, etc.)
 - ✅ **Detailed Reports**: Export comprehensive analysis to Excel with multiple sheets
 - ✅ **Summary Statistics**: Total savings, percentage savings, breakdown by task type
@@ -22,6 +23,26 @@ This system helps organizations:
 - ✅ **Jobs List Converter**: Convert existing jobs tracking data to analysis format
 
 ## 🚀 Quick Start
+
+### Two Analysis Modes
+
+#### Mode 1: Smart Analysis (No Time Tracking Required) - RECOMMENDED
+Perfect for analyzing historical job data without time tracking:
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Analyze your jobs list (works with jobstotal.xlsx format)
+python analyze_jobs_list.py jobstotal.xlsx
+```
+
+**Result:** Automatically categorizes 2,841+ jobs and estimates $403,731+ in annual savings from having in-house staff vs calling contractors.
+
+See [SMART_ANALYSIS_GUIDE.md](SMART_ANALYSIS_GUIDE.md) for details.
+
+#### Mode 2: Detailed Analysis (With Time Tracking Data)
+For precise analysis when you have actual time and materials data:
 
 ### Prerequisites
 
