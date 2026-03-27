@@ -8,7 +8,7 @@
 
 | Contractor                          | Price (Ex VAT) | VAT        | Price (Inc VAT) | Monthly Payment     |
 |-------------------------------------|---------------|------------|-----------------|---------------------|
-| Jonathan Axten – Green Green Grass  | £15,000.00    | £3,000.00  | **£18,000.00**  | £1,500.00 / month   |
+| Jonathan Axten – Green Green Grass  | £18,000.00    | N/A (not registered) | **£18,000.00** | £1,500.00 / month |
 | Kane Smith – Smith's Lawn & Home    | £27,000.00    | N/A (not registered) | **£27,000.00** | £2,250.00 / month |
 | Adrian Rainbird – Sound Site Services (SSS) | £24,000.00 | £4,800.00 | **£28,800.00** | £2,400.00 / month (£2,000 + VAT) |
 
@@ -20,11 +20,12 @@
 
 ### 1. Jonathan Axten – Green Green Grass
 
-**Annual Price: £18,000.00 inclusive of VAT**
+**Annual Price: £18,000.00 (no VAT – not VAT registered)**
 Monthly instalments of £1,500.00
 
 #### ✅ Pros
 - **Lowest overall price** – the most cost-effective option by a significant margin.
+- **Not VAT registered** – price quoted is the total payable (no VAT surcharge).
 - **Existing knowledge of the site** – Jonathan has previously carried out this work and is already familiar with the grounds.
 - **Fully qualified groundsman** – confirmed able to undertake all required works.
 - **All machinery included** – brings his own equipment and will use the client-provided ride-on mower.
@@ -47,7 +48,7 @@ Monthly instalments of £1,500.00
 Monthly invoicing at £2,250.00
 
 #### ✅ Pros
-- **Not VAT registered** – price quoted is the final price (no VAT to reclaim, but straightforward if the Trust cannot reclaim VAT).
+- **Not VAT registered** – price quoted is the total payable (no VAT surcharge).
 - **Detailed, professional tender** – thorough submission covering all required elements; demonstrates familiarity with the specification.
 - **Fuel included** – unlike the other quotes, fuel costs are absorbed by the contractor.
 - **Qualified and experienced** – self-employed professional with relevant commercial grounds maintenance background.
