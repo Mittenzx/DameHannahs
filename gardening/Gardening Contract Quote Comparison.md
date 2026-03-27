@@ -38,7 +38,6 @@ Monthly instalments of £1,500.00
 - **No formal company structure** – sole trader/small business; less resilience if personal circumstances change.
 - **Limited formal detail in tender** – submission is brief and lacks a structured breakdown of experience or formal references.
 - **Waste removal excluded** – client will need to arrange or agree separate disposal.
-- **Fuel excluded** – additional cost to contractor which could affect willingness to attend as frequently.
 
 ---
 
@@ -50,7 +49,6 @@ Monthly invoicing at £2,250.00
 #### ✅ Pros
 - **Not VAT registered** – price quoted is the total payable (no VAT surcharge).
 - **Detailed, professional tender** – thorough submission covering all required elements; demonstrates familiarity with the specification.
-- **Fuel included** – unlike the other quotes, fuel costs are absorbed by the contractor.
 - **Qualified and experienced** – self-employed professional with relevant commercial grounds maintenance background.
 - **Public liability insurance included** – documentation available on request.
 - **Committed to making up any lost time** – clearly addresses the risk of missed attendance due to on-call firefighting duties.
@@ -97,7 +95,6 @@ Monthly payments of £2,000.00 + VAT (£2,400.00 inc VAT)
 | Staffing resilience           | ❌ Solo        | ❌ Solo     | ✅ 2-person team          |
 | Company size / track record   | Small / solo   | Small / solo | ✅ Established (200 sites) |
 | Award-winning                 | ❌             | ❌          | ✅ Housing 21 COTY x2     |
-| Fuel included                 | ❌             | ✅          | TBC                       |
 | Tender completeness           | Basic          | ✅ Detailed | Informal email            |
 | Broader services available    | ❌             | ❌          | ✅ Yes                    |
 
