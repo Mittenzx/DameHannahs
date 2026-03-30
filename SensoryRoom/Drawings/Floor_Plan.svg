@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Dame Hannah Rogers Trust — Sensory Room Refurbishment
+  FLOOR PLAN (Top-Down View)
+  Drawing No: DHR-SR-01  |  Rev: A  |  Scale: 1:50 @ A3
+  Created: March 2026
+
+  HOW TO EDIT THIS FILE
+  ─────────────────────
+  Open with any SVG editor:
+    • Inkscape (free)  – inkscape.org
+    • Adobe Illustrator
+    • Affinity Designer
+    • Any modern web browser (view only)
+    • VS Code + SVG Preview extension
+
+  All walls, labels, dimensions, equipment symbols and the legend
+  are individual, named groups — click to select and edit freely.
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="420mm" height="297mm"
+  viewBox="0 0 1191 840"
+  font-family="'Arial', 'Helvetica', sans-serif"
+  version="1.1">
+
+  <!-- ══════════════════════════════════════════════════════
+       DEFS — reusable symbols
+       ══════════════════════════════════════════════════════ -->
+  <defs>
+    <!-- Hatch pattern for padded floor area -->
+    <pattern id="floor-pad" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#e8f4f8"/>
+      <line x1="0" y1="12" x2="12" y2="0" stroke="#aad4e8" stroke-width="0.8"/>
+    </pattern>
+    <!-- Diagonal hatch for wall padding -->
+    <pattern id="wall-pad" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#ddeeff"/>
+      <line x1="0" y1="8" x2="8" y2="0" stroke="#88aacc" stroke-width="1"/>
+    </pattern>
+    <!-- Arrow marker for dimensions -->
+    <marker id="dim-arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <marker id="dim-arrow-r" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <!-- Equipment symbol: Mirror Ball (ceiling) -->
+    <symbol id="mirror-ball" viewBox="0 0 30 30">
+      <circle cx="15" cy="15" r="12" fill="none" stroke="#555" stroke-width="1.5"/>
+      <circle cx="15" cy="15" r="5" fill="#aaa" stroke="#555" stroke-width="1"/>
+      <line x1="15" y1="3" x2="15" y2="27" stroke="#888" stroke-width="0.8" stroke-dasharray="2,2"/>
+      <line x1="3" y1="15" x2="27" y2="15" stroke="#888" stroke-width="0.8" stroke-dasharray="2,2"/>
+    </symbol>
+    <!-- Equipment symbol: Projector -->
+    <symbol id="projector" viewBox="0 0 40 24">
+      <rect x="2" y="4" width="36" height="16" rx="3" fill="#ddd" stroke="#333" stroke-width="1.5"/>
+      <circle cx="32" cy="12" r="5" fill="none" stroke="#333" stroke-width="1.2"/>
+      <rect x="6" y="8" width="16" height="8" rx="1" fill="#bbb" stroke="#555" stroke-width="0.8"/>
+      <circle cx="32" cy="12" r="2" fill="#666"/>
+    </symbol>
+    <!-- Equipment symbol: Speaker/Control panel -->
+    <symbol id="control-panel" viewBox="0 0 20 20">
+      <rect x="2" y="2" width="16" height="16" rx="2" fill="#e0e8f0" stroke="#336699" stroke-width="1.5"/>
+      <circle cx="7" cy="7" r="2" fill="#336699"/>
+      <circle cx="13" cy="7" r="2" fill="#336699"/>
+      <rect x="5" y="12" width="10" height="2" rx="1" fill="#336699"/>
+    </symbol>
+    <!-- Equipment symbol: Fibre optic point light -->
+    <symbol id="fibre-optic" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="8" fill="none" stroke="#9933cc" stroke-width="1.5"/>
+      <circle cx="10" cy="10" r="3" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+      <line x1="10" y1="2" x2="10" y2="5" stroke="#9933cc" stroke-width="1"/>
+      <line x1="10" y1="15" x2="10" y2="18" stroke="#9933cc" stroke-width="1"/>
+      <line x1="2" y1="10" x2="5" y2="10" stroke="#9933cc" stroke-width="1"/>
+      <line x1="15" y1="10" x2="18" y2="10" stroke="#9933cc" stroke-width="1"/>
+    </symbol>
+    <!-- Equipment symbol: Bubble/Chromatube column -->
+    <symbol id="column-unit" viewBox="0 0 20 40">
+      <rect x="4" y="2" width="12" height="36" rx="6" fill="#99ccff" stroke="#336699" stroke-width="1.5"/>
+      <ellipse cx="10" cy="10" rx="4" ry="3" fill="white" opacity="0.5"/>
+      <ellipse cx="10" cy="22" rx="3" ry="2.5" fill="white" opacity="0.4"/>
+      <ellipse cx="10" cy="32" rx="2" ry="2" fill="white" opacity="0.3"/>
+    </symbol>
+    <!-- Equipment symbol: Corner Plinth -->
+    <symbol id="corner-plinth" viewBox="0 0 30 30">
+      <polygon points="0,0 30,0 0,30" fill="#f0e8d0" stroke="#8b7355" stroke-width="1.5"/>
+      <polygon points="4,4 24,4 4,24" fill="#d4c4a0" stroke="none"/>
+    </symbol>
+    <!-- Equipment symbol: UV Light Bar (wall strip) -->
+    <symbol id="uv-bar" viewBox="0 0 40 10">
+      <rect x="0" y="2" width="40" height="6" rx="3" fill="#cc66ff" stroke="#7722cc" stroke-width="1"/>
+      <rect x="5" y="3.5" width="30" height="3" rx="1" fill="#ee99ff" opacity="0.7"/>
+    </symbol>
+    <!-- North arrow -->
+    <symbol id="north-arrow" viewBox="0 0 30 50">
+      <polygon points="15,2 20,28 15,22 10,28" fill="#1a1a2e" stroke="#1a1a2e" stroke-width="1"/>
+      <polygon points="15,2 10,28 15,22 20,28" fill="white" stroke="#1a1a2e" stroke-width="1"/>
+      <circle cx="15" cy="35" r="8" fill="none" stroke="#1a1a2e" stroke-width="1.5"/>
+      <text x="15" y="39" text-anchor="middle" font-size="8" font-weight="bold" fill="#1a1a2e">N</text>
+    </symbol>
+  </defs>
+
+  <!-- ══════════════════════════════════════════════════════
+       BACKGROUND
+       ══════════════════════════════════════════════════════ -->
+  <rect width="1191" height="840" fill="#f5f5f0"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       TITLE BLOCK (bottom strip)
+       ══════════════════════════════════════════════════════ -->
+  <g id="title-block">
+    <rect x="0" y="785" width="1191" height="55" fill="#1a2744" stroke="none"/>
+    <rect x="0" y="783" width="1191" height="2" fill="#2e5fa3"/>
+    <!-- Left: org name -->
+    <text x="20" y="806" font-size="11" font-weight="bold" fill="#ffffff">Dame Hannah Rogers Trust</text>
+    <text x="20" y="822" font-size="9" fill="#aabbdd">Woodland Road, Ivybridge, PL21 9HQ</text>
+    <!-- Centre: drawing title -->
+    <text x="595" y="804" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">SENSORY ROOM REFURBISHMENT</text>
+    <text x="595" y="821" text-anchor="middle" font-size="11" fill="#88aadd">Floor Plan — Proposed Equipment Layout</text>
+    <text x="595" y="834" text-anchor="middle" font-size="9" fill="#667799">All dimensions indicative — confirm on site. For Planning Purposes Only.</text>
+    <!-- Right: drawing info box -->
+    <line x1="850" y1="783" x2="850" y2="840" stroke="#2e5fa3" stroke-width="1"/>
+    <line x1="1000" y1="783" x2="1000" y2="840" stroke="#2e5fa3" stroke-width="1"/>
+    <text x="865" y="797" font-size="8" fill="#aabbdd">Drawing No.</text>
+    <text x="865" y="809" font-size="10" font-weight="bold" fill="#ffffff">DHR-SR-01</text>
+    <text x="865" y="822" font-size="8" fill="#aabbdd">Revision</text>
+    <text x="865" y="833" font-size="10" font-weight="bold" fill="#ffffff">Rev A (Draft)</text>
+    <text x="1010" y="797" font-size="8" fill="#aabbdd">Scale</text>
+    <text x="1010" y="809" font-size="10" font-weight="bold" fill="#ffffff">1:50 @ A3</text>
+    <text x="1010" y="822" font-size="8" fill="#aabbdd">Date</text>
+    <text x="1010" y="833" font-size="10" font-weight="bold" fill="#ffffff">March 2026</text>
+    <text x="1100" y="797" font-size="8" fill="#aabbdd">Status</text>
+    <text x="1100" y="809" font-size="9" font-weight="bold" fill="#f0c040">DRAFT</text>
+    <text x="1100" y="822" font-size="8" fill="#aabbdd">Checked</text>
+    <text x="1100" y="833" font-size="9" fill="#aabbdd">TBC</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       DRAWING AREA BORDER
+       ══════════════════════════════════════════════════════ -->
+  <rect x="8" y="8" width="1175" height="775" fill="none" stroke="#1a2744" stroke-width="2"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       ROOM WALLS
+       Room: ~5.5m wide × 6.0m deep (1:50 → 110px × 120px per metre)
+       Origin (room ext top-left): x=200, y=60
+       Wall thickness: 20px (= 1000mm at 1:50)
+       Internal clear: 550×600 px
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- Coordinates:
+       Room exterior: x=190, y=50, w=590, h=640
+       Wall thickness: 22px
+       Internal floor: x=212, y=72, w=546, h=596
+  -->
+
+  <!-- PADDED FLOOR (full internal area) -->
+  <rect id="floor-area" x="212" y="72" width="546" height="596" fill="url(#floor-pad)" stroke="none"/>
+
+  <!-- OUTER WALLS (thick) -->
+  <g id="walls" stroke="#1a2744" stroke-width="2" fill="#d8cfc0">
+    <!-- North wall (top) -->
+    <rect x="190" y="50" width="590" height="22"/>
+    <!-- South wall (bottom) — with door break -->
+    <rect x="190" y="668" width="200" height="22"/>
+    <rect x="498" y="668" width="282" height="22"/>
+    <!-- West wall (left) -->
+    <rect x="190" y="50" width="22" height="640"/>
+    <!-- East wall (right) -->
+    <rect x="758" y="50" width="22" height="640"/>
+  </g>
+
+  <!-- WALL PADDING (interior layer, 50mm thick → ~5px at 1:50, drawn as 14px for visibility) -->
+  <g id="wall-padding" opacity="0.85">
+    <!-- North wall padding -->
+    <rect x="212" y="72" width="546" height="14" fill="url(#wall-pad)" stroke="#7799bb" stroke-width="0.8"/>
+    <!-- East wall padding -->
+    <rect x="744" y="72" width="14" height="596" fill="url(#wall-pad)" stroke="#7799bb" stroke-width="0.8"/>
+    <!-- West wall padding -->
+    <rect x="212" y="72" width="14" height="596" fill="url(#wall-pad)" stroke="#7799bb" stroke-width="0.8"/>
+    <!-- South wall padding (no padding on door section) -->
+    <rect x="212" y="654" width="186" height="14" fill="url(#wall-pad)" stroke="#7799bb" stroke-width="0.8"/>
+    <rect x="498" y="654" width="246" height="14" fill="url(#wall-pad)" stroke="#7799bb" stroke-width="0.8"/>
+  </g>
+
+  <!-- DOOR (south wall, swing inward) -->
+  <g id="door" stroke="#1a2744" stroke-width="1.5" fill="none">
+    <line x1="390" y1="668" x2="498" y2="668" stroke="#f5f5f0" stroke-width="4"/><!-- door gap -->
+    <line x1="390" y1="668" x2="390" y2="690" stroke="#1a2744" stroke-width="1.5"/><!-- door frame left -->
+    <line x1="498" y1="668" x2="498" y2="690" stroke="#1a2744" stroke-width="1.5"/><!-- door frame right -->
+    <line x1="390" y1="668" x2="498" y2="668" stroke="#333" stroke-width="2"/><!-- door leaf -->
+    <!-- Swing arc -->
+    <path d="M 390,668 A 108,108 0 0 1 498,668" stroke="#666" stroke-width="1" stroke-dasharray="4,3" fill="none"/>
+    <line x1="390" y1="668" x2="390" y2="560" stroke="#666" stroke-width="1" stroke-dasharray="4,3"/>
+  </g>
+  <text x="444" y="710" text-anchor="middle" font-size="9" fill="#333">DOOR</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       EQUIPMENT — placed on floor plan
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- 1. CORNER PLINTHS (NW and NE corners) -->
+  <g id="corner-plinth-NW">
+    <use href="#corner-plinth" x="212" y="86" width="60" height="60"/>
+    <text x="242" y="162" text-anchor="middle" font-size="8" fill="#554433">CP1</text>
+  </g>
+  <g id="corner-plinth-NE" transform="scale(-1,1) translate(-1536,0)">
+    <use href="#corner-plinth" x="212" y="86" width="60" height="60"/>
+  </g>
+  <text x="706" y="162" text-anchor="middle" font-size="8" fill="#554433">CP2</text>
+
+  <!-- 2. CHROMATUBE COLUMN (centre of room, free-standing) -->
+  <g id="chromatube">
+    <use href="#column-unit" x="470" y="290" width="28" height="56"/>
+    <circle cx="484" cy="390" r="4" fill="#99ccff" stroke="#336699" stroke-width="1" opacity="0.6"/>
+    <text x="484" y="408" text-anchor="middle" font-size="8" fill="#336699" font-weight="bold">CHR</text>
+  </g>
+
+  <!-- 3. HD ULTRA SHORT THROW PROJECTOR (north wall, centre) -->
+  <g id="projector-mount">
+    <use href="#projector" x="445" y="78" width="60" height="36"/>
+    <!-- projection cone -->
+    <path d="M 455,114 L 360,260 L 540,260 Z" fill="#ffffcc" stroke="#cccc00" stroke-width="0.8" opacity="0.5"/>
+    <text x="485" y="74" text-anchor="middle" font-size="8" fill="#555">PROJ</text>
+  </g>
+
+  <!-- 4. PROJECTION SCREEN AREA (north wall) -->
+  <rect id="projection-screen" x="330" y="86" width="300" height="10" fill="#ffffcc" stroke="#cccc00" stroke-width="1.5" rx="2"/>
+  <text x="480" y="107" text-anchor="middle" font-size="7" fill="#888">Projection Surface</text>
+
+  <!-- 5. MIRROR BALL (ceiling, centre) -->
+  <g id="mirror-ball-ceiling">
+    <use href="#mirror-ball" x="454" y="200" width="40" height="40"/>
+    <text x="474" y="252" text-anchor="middle" font-size="8" fill="#555">MBL</text>
+  </g>
+
+  <!-- 6. GALAXY STAR PROJECTOR (NE upper area, wall mount) -->
+  <g id="galaxy-star-proj">
+    <circle cx="700" cy="130" r="12" fill="#1a1a3e" stroke="#6666ff" stroke-width="1.5"/>
+    <circle cx="700" cy="130" r="5" fill="#6666ff"/>
+    <text x="700" y="155" text-anchor="middle" font-size="8" fill="#333">GSP</text>
+  </g>
+
+  <!-- 7. FIBRE OPTIC PANEL (NW ceiling area) -->
+  <g id="fibre-optic-ceiling">
+    <use href="#fibre-optic" x="250" y="115" width="30" height="30"/>
+    <text x="265" y="158" text-anchor="middle" font-size="8" fill="#9933cc">FOC</text>
+  </g>
+
+  <!-- 8. UV LED LIGHT BARS (east + west walls) -->
+  <g id="uv-bar-west">
+    <use href="#uv-bar" x="216" y="400" width="60" height="15" transform="rotate(90,246,407)"/>
+    <text x="210" y="430" text-anchor="middle" font-size="7" fill="#7722cc">UV1</text>
+  </g>
+  <g id="uv-bar-east">
+    <use href="#uv-bar" x="700" y="400" width="60" height="15" transform="rotate(90,730,407)"/>
+    <text x="762" y="430" text-anchor="middle" font-size="7" fill="#7722cc">UV2</text>
+  </g>
+
+  <!-- 9. LED SURROUND LIGHTING STRIP (ceiling perimeter — shown as dashed line) -->
+  <rect id="led-surround" x="226" y="86" width="520" height="568"
+        fill="none" stroke="#ffaa00" stroke-width="3" stroke-dasharray="10,5" rx="4" opacity="0.7"/>
+  <text x="485" y="445" text-anchor="middle" font-size="8" fill="#cc7700" opacity="0.8">LED surround (ceiling)</text>
+
+  <!-- 10. BLUETOOTH SWITCH PANELS (wall mounted, 4 positions shown) -->
+  <g id="bt-switches">
+    <!-- West wall -->
+    <use href="#control-panel" x="217" y="300" width="22" height="22"/>
+    <text x="228" y="334" text-anchor="middle" font-size="7" fill="#336699">BT1</text>
+    <!-- East wall -->
+    <use href="#control-panel" x="741" y="300" width="22" height="22"/>
+    <text x="752" y="334" text-anchor="middle" font-size="7" fill="#336699">BT2</text>
+    <!-- Near door (south) -->
+    <use href="#control-panel" x="530" y="645" width="22" height="22"/>
+    <text x="541" y="635" text-anchor="middle" font-size="7" fill="#336699">BT3</text>
+    <use href="#control-panel" x="580" y="645" width="22" height="22"/>
+    <text x="591" y="635" text-anchor="middle" font-size="7" fill="#336699">BT4</text>
+  </g>
+
+  <!-- 11. WIFI / ETHERNET ADAPTER (east wall, high up) -->
+  <g id="wifi-adapter">
+    <rect x="743" y="115" width="16" height="12" rx="2" fill="#e0ffe0" stroke="#006600" stroke-width="1"/>
+    <text x="764" y="126" font-size="7" fill="#006600">WiFi</text>
+  </g>
+
+  <!-- 12. UV REACTIVE STARS / HANGING SOLAR SYSTEM (ceiling, SW quadrant) -->
+  <g id="uv-stars">
+    <circle cx="310" cy="450" r="6" fill="#ffccff" stroke="#cc00cc" stroke-width="1" stroke-dasharray="3,2"/>
+    <circle cx="290" cy="430" r="4" fill="#ffccff" stroke="#cc00cc" stroke-width="0.8"/>
+    <circle cx="330" cy="470" r="5" fill="#ffccff" stroke="#cc00cc" stroke-width="0.8"/>
+    <text x="310" y="495" text-anchor="middle" font-size="7" fill="#cc00cc">UV Stars</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       DIMENSIONS
+       ══════════════════════════════════════════════════════ -->
+  <g id="dimensions" stroke="#333" stroke-width="1" fill="none">
+    <!-- Overall width (below room) -->
+    <line x1="190" y1="730" x2="780" y2="730" stroke="#333" stroke-width="1"
+          marker-start="url(#dim-arrow-r)" marker-end="url(#dim-arrow)"/>
+    <line x1="190" y1="720" x2="190" y2="740" stroke="#333" stroke-width="1"/>
+    <line x1="780" y1="720" x2="780" y2="740" stroke="#333" stroke-width="1"/>
+    <rect x="440" y="723" width="80" height="14" fill="#f5f5f0"/>
+    <text x="480" y="734" text-anchor="middle" font-size="10" fill="#333">≈ 5.9m</text>
+
+    <!-- Overall depth (right of room) -->
+    <line x1="820" y1="50" x2="820" y2="690" stroke="#333" stroke-width="1"
+          marker-start="url(#dim-arrow-r)" marker-end="url(#dim-arrow)"/>
+    <line x1="810" y1="50" x2="830" y2="50" stroke="#333" stroke-width="1"/>
+    <line x1="810" y1="690" x2="830" y2="690" stroke="#333" stroke-width="1"/>
+    <rect x="826" y="355" width="50" height="14" fill="#f5f5f0" transform="rotate(90,851,362)"/>
+    <text x="851" y="375" text-anchor="middle" font-size="10" fill="#333" transform="rotate(90,851,375)">≈ 6.4m</text>
+
+    <!-- Wall padding width annotation -->
+    <line x1="212" y1="46" x2="226" y2="46" stroke="#7799bb" stroke-width="1"
+          marker-start="url(#dim-arrow-r)" marker-end="url(#dim-arrow)"/>
+    <text x="219" y="42" text-anchor="middle" font-size="7" fill="#7799bb">~50mm pad</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       LEGEND (right side)
+       ══════════════════════════════════════════════════════ -->
+  <g id="legend">
+    <rect x="870" y="50" width="300" height="720" rx="4" fill="white" stroke="#999" stroke-width="1" opacity="0.95"/>
+    <rect x="870" y="50" width="300" height="28" rx="4" fill="#1a2744"/>
+    <text x="1020" y="69" text-anchor="middle" font-size="12" font-weight="bold" fill="white">LEGEND</text>
+
+    <!-- Pattern swatches -->
+    <rect x="885" y="88" width="20" height="14" fill="url(#floor-pad)" stroke="#aad4e8" stroke-width="1"/>
+    <text x="912" y="99" font-size="9" fill="#333">Padded floor area (So Sensory Q3)</text>
+
+    <rect x="885" y="110" width="20" height="14" fill="url(#wall-pad)" stroke="#88aacc" stroke-width="1"/>
+    <text x="912" y="121" font-size="9" fill="#333">Wall padding (So Sensory Q3)</text>
+
+    <line x1="885" y1="137" x2="905" y2="137" stroke="#ffaa00" stroke-width="3" stroke-dasharray="6,3"/>
+    <text x="912" y="141" font-size="9" fill="#333">LED surround lighting (ceiling)</text>
+
+    <!-- Equipment symbols -->
+    <line x1="885" y1="155" x2="1160" y2="155" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1020" y="170" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">EQUIPMENT (from So Sensory quotes)</text>
+
+    <!-- CP -->
+    <use href="#corner-plinth" x="885" y="178" width="22" height="22"/>
+    <text x="912" y="193" font-size="9" fill="#333">CP1/CP2 — Corner Plinth + mirrors (×2)</text>
+
+    <!-- CHR -->
+    <use href="#column-unit" x="891" y="205" width="14" height="28"/>
+    <text x="912" y="218" font-size="9" fill="#333">CHR — Chromatube+ (with remote)</text>
+
+    <!-- PROJ -->
+    <use href="#projector" x="883" y="240" width="26" height="16"/>
+    <text x="912" y="253" font-size="9" fill="#333">PROJ — HD Ultra Short Throw Projector</text>
+
+    <!-- MBL -->
+    <use href="#mirror-ball" x="885" y="268" width="22" height="22"/>
+    <text x="912" y="282" font-size="9" fill="#333">MBL — Mirror ball + spotlight + motor</text>
+
+    <!-- GSP -->
+    <circle cx="896" cy="305" r="10" fill="#1a1a3e" stroke="#6666ff" stroke-width="1.5"/>
+    <circle cx="896" cy="305" r="4" fill="#6666ff"/>
+    <text x="912" y="309" font-size="9" fill="#333">GSP — Galaxy Star Projector (wall)</text>
+
+    <!-- FOC -->
+    <use href="#fibre-optic" x="885" y="323" width="22" height="22"/>
+    <text x="912" y="337" font-size="9" fill="#333">FOC — Fibre Optic Strands (ceiling)</text>
+
+    <!-- UV Stars -->
+    <circle cx="896" cy="355" r="7" fill="#ffccff" stroke="#cc00cc" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="912" y="360" font-size="9" fill="#333">UV Stars — UV reactive stars/solar system</text>
+
+    <!-- UV Bar -->
+    <use href="#uv-bar" x="884" y="373" width="24" height="9"/>
+    <text x="912" y="382" font-size="9" fill="#333">UV1/UV2 — UV LED Light Bars (×2)</text>
+
+    <!-- BT panels -->
+    <use href="#control-panel" x="885" y="392" width="18" height="18"/>
+    <text x="912" y="404" font-size="9" fill="#333">BT1–BT4 — Bluetooth switch panels (×10)</text>
+
+    <!-- WiFi -->
+    <rect x="885" y="418" width="14" height="10" rx="2" fill="#e0ffe0" stroke="#006600" stroke-width="1"/>
+    <text x="912" y="428" font-size="9" fill="#333">WiFi — Wifi/Ethernet adapter + bridge</text>
+
+    <!-- Laser lights note -->
+    <circle cx="896" cy="448" r="5" fill="#ffff00" stroke="#cc9900" stroke-width="1"/>
+    <text x="912" y="452" font-size="9" fill="#333">Laser Lights — ceiling (×2, exact pos. TBC)</text>
+
+    <!-- Separator -->
+    <line x1="885" y1="465" x2="1160" y2="465" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1020" y="480" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">NOTES</text>
+
+    <text x="885" y="497" font-size="8" fill="#333">① All dimensions are indicative only.</text>
+    <text x="885" y="511" font-size="8" fill="#333">  Confirm actual room dimensions on site.</text>
+    <text x="885" y="526" font-size="8" fill="#333">② Equipment positions are approximate and</text>
+    <text x="885" y="540" font-size="8" fill="#333">  subject to So Sensory site survey.</text>
+    <text x="885" y="555" font-size="8" fill="#333">③ Electrical sockets, conduit runs and</text>
+    <text x="885" y="569" font-size="8" fill="#333">  data cabling routes NOT shown</text>
+    <text x="885" y="583" font-size="8" fill="#333">  (electrical survey outstanding — gap T2).</text>
+    <text x="885" y="598" font-size="8" fill="#333">④ VAP (foam covering over existing</text>
+    <text x="885" y="612" font-size="8" fill="#333">  equipment) by Tugboat &amp; Dolphins.</text>
+    <text x="885" y="627" font-size="8" fill="#333">  Location/extent TBC — gap T5.</text>
+
+    <!-- Separator -->
+    <line x1="885" y1="642" x2="1160" y2="642" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1020" y="658" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">HOW TO EDIT THIS FILE</text>
+    <text x="885" y="674" font-size="8" fill="#444">Open Floor_Plan.svg in Inkscape (free)</text>
+    <text x="885" y="688" font-size="8" fill="#444">or Adobe Illustrator / Affinity Designer.</text>
+    <text x="885" y="702" font-size="8" fill="#444">Each element is a named group — click</text>
+    <text x="885" y="716" font-size="8" fill="#444">to select and drag/resize freely.</text>
+    <text x="885" y="730" font-size="8" fill="#2255aa">inkscape.org  (free, open source)</text>
+    <text x="885" y="744" font-size="8" fill="#2255aa">github.com/Mittenzx/DameHannahs</text>
+    <text x="885" y="758" font-size="8" fill="#666">Rev A — March 2026 — DRAFT</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       NORTH ARROW + SCALE BAR
+       ══════════════════════════════════════════════════════ -->
+  <g id="north-arrow-group" transform="translate(840, 640)">
+    <use href="#north-arrow" x="0" y="0" width="30" height="50"/>
+  </g>
+
+  <!-- Scale bar -->
+  <g id="scale-bar" transform="translate(190, 755)">
+    <rect x="0" y="0" width="22" height="8" fill="#333"/>
+    <rect x="22" y="0" width="22" height="8" fill="white" stroke="#333" stroke-width="1"/>
+    <rect x="44" y="0" width="22" height="8" fill="#333"/>
+    <rect x="66" y="0" width="22" height="8" fill="white" stroke="#333" stroke-width="1"/>
+    <rect x="88" y="0" width="22" height="8" fill="#333"/>
+    <text x="0" y="20" text-anchor="middle" font-size="8" fill="#333">0</text>
+    <text x="44" y="20" text-anchor="middle" font-size="8" fill="#333">2m</text>
+    <text x="110" y="20" text-anchor="middle" font-size="8" fill="#333">5m</text>
+    <text x="55" y="30" text-anchor="middle" font-size="8" fill="#666">Scale 1:50</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       DRAWING TITLE (top of plan area)
+       ══════════════════════════════════════════════════════ -->
+  <text x="530" y="33" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2744">
+    PROPOSED SENSORY ROOM — FLOOR PLAN
+  </text>
+  <text x="530" y="46" text-anchor="middle" font-size="9" fill="#555">
+    (Top-Down View · Equipment Layout · Indicative Only)
+  </text>
+
+</svg>
