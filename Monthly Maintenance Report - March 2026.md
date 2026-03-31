@@ -11,25 +11,72 @@ Welcome to the very first edition of our monthly maintenance update! The idea be
 
 ### 1. Maintenance Jobs Overview
 
-March was a busy one! The team logged and processed **35 job requests** across the site — covering everything from hoists and washing machines to oven repairs, mysterious ceiling lights, and at least one very dramatic check engine warning light.
+March was a busy one! The team logged and processed **39 job requests** across the site (JS2966–JS3004) — covering everything from hoists and washing machines to oven repairs, mysterious ceiling lights, and at least one very dramatic check engine warning light.
 
 Here's a snapshot of where things stand:
 
-| Status            | Number of Jobs |
-|-------------------|----------------|
-| ✅ Completed       | 21             |
-| 🔄 In Progress     | 7              |
-| ⏳ Waiting on Parts | 2             |
-| 🆕 New / Queued    | 5              |
+| Status              | Number of Jobs |
+|---------------------|----------------|
+| ✅ Completed         | 21             |
+| 🔄 In Progress       | 7              |
+| ⏳ Waiting on Parts  | 2              |
+| 🆕 New / Queued      | 9              |
+| **Total**           | **39**         |
 
-A completion rate of around 60% in-month, with the remainder actively in hand — not bad for a month that also involved some major project work (more on that below!).
+A completion rate of around 54% in-month, with the remainder actively in hand — not bad for a month that also involved some significant project work (more on that below!).
+
+---
+
+#### Full Jobs List — March 2026
+
+| Job No  | Location              | Description                                              | Status          | Priority |
+|---------|-----------------------|----------------------------------------------------------|-----------------|----------|
+| JS2966  | Reception Area        | Window reflective film — blind replacement               | ⏳ Waiting Parts | Moderate |
+| JS2967  | Physio Therapy Office | Hoist not working                                        | ✅ Complete      | Moderate |
+| JS2968  | Hannahwood Mews       | Ceiling light flashing                                   | ⏳ Waiting Parts | High     |
+| JS2969  | Hayward               | MW hoist down button not working                         | ✅ Complete      | High     |
+| JS2970  | Gilleys               | Washing machine leaking                                  | ✅ Complete      | Low      |
+| JS2971  | Hannahwood Mews       | Washing machine grinding noise on spin cycle             | ✅ Complete      | Low      |
+| JS2972  | Arthur                | Pump making loud noise                                   | ✅ Complete      | Moderate |
+| JS2973  | Hannahwood Mews       | O bed — feet not responding on controller                | ✅ Complete      | High     |
+| JS2974  | Hannahwood Mews       | Pad bin lid not working                                  | ✅ Complete      | High     |
+| JS2975  | Arthur                | Laundry washing machine stuck / not opening              | 🔄 In Progress  | High     |
+| JS2976  | Newberry              | Doorbell not working                                     | ✅ Complete      | Moderate |
+| JS2977  | Hannahwood Mews       | PW hoist not holding charge                              | ✅ Complete      | High     |
+| JS2978  | Hayward               | AG hoist not charging at charging point                  | ✅ Complete      | High     |
+| JS2979  | Hayward               | Hoist not working (lounge)                               | ✅ Complete      | Moderate |
+| JS2980  | Newberry              | Kitchen heating actuator fault                           | 🔄 In Progress  | High     |
+| JS2981  | Physio Therapy Office | Move Kallax unit to gym                                  | ✅ Complete      | Low      |
+| JS2982  | Physio Therapy Office | Shelving in back section of Jack's old office            | ✅ Complete      | Low      |
+| JS2983  | Other                 | Removal of chairs                                        | 🔄 In Progress  | Moderate |
+| JS2984  | Other                 | Metal cabinets & shelving relocation (wheelchair room)   | 🔄 In Progress  | Low      |
+| JS2985  | Physio Therapy Office | Washing up liquid for physio gym                         | ✅ Complete      | Low      |
+| JS2986  | Gilleys               | Tumble dryer making noise                                | 🔄 In Progress  | Moderate |
+| JS2987  | Arthur                | Oven not working                                         | ✅ Complete      | High     |
+| JS2988  | Hannahwood Mews       | Hoist yellow button stopping intermittently              | ✅ Complete      | High     |
+| JS2989  | Hannahwood Mews       | Female hydro changing room radiator banging              | 🔄 In Progress  | High     |
+| JS2990  | Vehicles              | JUMBO check engine warning light                         | ✅ Complete      | Moderate |
+| JS2991  | Newberry              | Paper towel dispenser key broken                         | ✅ Complete      | High     |
+| JS2992  | Hannahwood Mews       | Light switch cover                                       | 🆕 New          | High     |
+| JS2993  | Hayward               | Curtains for Hayward                                     | 🆕 New          | Moderate |
+| JS2994  | Hannahwood Mews       | Fire door — loose hinges, door rubbing frame             | ✅ Complete      | High     |
+| JS2995  | Arthur                | Appliance tripping kitchen circuit overnight             | 🆕 New          | High     |
+| JS2996  | Arthur                | Replacement washing machine                              | 🆕 New          | Moderate |
+| JS2997  | Arthur                | Exposed electrical wires (former light switch)           | 🆕 New          | Moderate |
+| JS2998  | Hannahwood Mews       | Sink blocked — D&D shared bathroom                       | 🆕 New          | High     |
+| JS2999  | Hannahwood Mews       | Bed too low for staff — manual handling concern          | 🔄 In Progress  | High     |
+| JS3000  | Hannahwood Mews       | Bed side rails very hard to lift                         | 🆕 New          | High     |
+| JS3001  | Newberry              | Window handle broken                                     | ✅ Complete      | High     |
+| JS3002  | Newberry              | Picture to hang in bedroom                               | 🆕 New          | Low      |
+| JS3003  | Hannahwood Mews       | COSHH cupboard lock / fittings                           | 🆕 New          | Moderate |
+| JS3004  | Hayward               | DK hoist not charging properly                           | ✅ Complete      | High     |
 
 ---
 
 #### Notable Completions This Month
 
-**Hoists — Hayward & Hannahwood Mews**
-There was clearly something in the water this March, because hoists were the theme of the month. We dealt with multiple hoist faults across Hayward and Hannahwood Mews — charging issues, sticky buttons, and controls that had simply decided they'd had enough. All resolved and back in full working order. Keeping people moving is, after all, rather the point.
+**Hoists — Hayward & Hannahwood Mews (JS2967, JS2969, JS2977, JS2978, JS2979, JS2988, JS3004)**
+There was clearly something in the water this March, because hoists were the theme of the month. We dealt with multiple hoist faults across Hayward and Hannahwood Mews — charging issues, sticky buttons, down buttons refusing to respond, and controls that had simply decided they'd had enough. Seven hoist jobs resolved and back in full working order. Keeping people moving is, after all, rather the point.
 
 **Fire Door — Hannahwood Mews (JS2994)**
 A fire door at Mews had developed a lean — hinges loose, door rubbing against the frame, and making a nuisance of itself every time someone tried to close it. Hinges tightened, door is now standing proud and doing its job properly.
@@ -52,8 +99,14 @@ The key was broken and, as it turned out, it was the only key we ever had. A pra
 **Vehicles — JUMBO Check Engine Light (JS2990)**
 JUMBO's dashboard lit up like a Christmas tree and gave us all a mild moment of panic. Investigated, issue identified and resolved. JUMBO lives to fight another day.
 
-**Physio & Therapy Suite Reorganisation (JS2981, JS2982)**
-As part of ongoing changes to the therapy area, the team spent time relocating a Kallax unit from opposite the hydro room into the gym, and putting up shelving in the back section of Jack's old office. The space is looking much tidier and better organised as a result.
+**O Bed & Pad Bin — Hannahwood Mews (JS2973, JS2974)**
+The feet on the O bed weren't responding on the controller — sorted. And a non-working pad bin lid was also quickly seen to.
+
+**Pump — Arthur (JS2972)**
+A loud pump at Arthur was investigated and sorted out. Peace and quiet restored.
+
+**Physio & Therapy Suite Reorganisation (JS2981, JS2982, JS2985)**
+As part of ongoing changes to the therapy area, the team spent time relocating a Kallax unit from opposite the hydro room into the gym, and putting up shelving in the back section of Jack's old office. The space is looking much tidier and better organised as a result. And yes — the washing-up liquid for the physio gym was sorted too (JS2985).
 
 ---
 
@@ -66,6 +119,8 @@ Several jobs are currently underway and will be completed in the coming days:
 - **Gilleys — Tumble Dryer (JS2986):** The tumble dryer has been making quite a racket during use. It's being looked at.
 - **Hannahwood Mews — Female Hydro Changing Room Radiator (JS2989):** A banging radiator that required turning off to stop the noise. Investigation ongoing.
 - **Metal Cabinets & Shelving Relocation (JS2984):** Removal of metal cabinets and shelving from the wheelchair repair room, with the shelving being relocated to the room behind the physio gym. Ongoing.
+- **Arthur — Laundry Washing Machine (JS2975):** Machine stuck and not opening. In hand.
+- **Removal of Chairs (JS2983):** Ongoing removal of chairs from across the site.
 
 Two jobs are currently **waiting on parts**:
 - A **flashing ceiling light at Hannahwood Mews** (JS2968) — parts ordered.
@@ -82,6 +137,10 @@ The following jobs came in towards the end of the month and are queued for the t
 - **Arthur — Replacement Washing Machine (JS2996):** Related to the above — a replacement machine has been requested.
 - **Hannahwood Mews — Sink Blockage (JS2998):** The shared bathroom sink in D&D's bathroom is blocked. On the list.
 - **Hannahwood Mews — COSHH Cupboard Lock (JS3003):** Fittings on the COSHH cupboard door need attention. Padlock remains in place in the meantime.
+- **Hannahwood Mews — Bed Side Rails (JS3000):** The top rail is very hard to lift on both beds. Logged and queued.
+- **Hannahwood Mews — Light Switch Cover (JS2992):** A light switch cover to be fitted. Queued.
+- **Hayward — Curtains (JS2993):** New curtains requested for Hayward. Queued.
+- **Newberry — Picture to Hang (JS3002):** A picture to go up in a bedroom. Low priority but on the list.
 
 ---
 
@@ -121,8 +180,10 @@ The tired red crumb flooring around the pool has been lifted and taken away. It 
 **Grates Removed**
 The grates surrounding the pool have been taken out, ready to be fully renewed as part of the wider improvement works. Out with the old, in with the new.
 
-**Pool Filter Removed — This One Deserves Its Own Paragraph**
-The pool filter has been cut apart and removed. Now, this might sound straightforward, but we should mention that this filter contained *literally tonnes of sand* — and we do mean that in the most literal sense possible. It was a substantial undertaking, and the team did a brilliant job of getting it out. This filter was long overdue for replacement and its removal marks a key step in modernising the pool and getting the very best out of it for the years ahead.
+**Pool Filter Removal & Replacement — The Single Biggest Cost in the Project ⭐**
+The pool filter has been cut apart and removed, and a full replacement is now underway. This is, without question, the most significant item — both in terms of effort and cost — in the entire Hydropool refurbishment. The existing filter was a large, aging vessel packed with *literally tonnes of sand*, and extracting it was a considerable undertaking. The team worked extremely hard to get it out safely, and the work involved should not be underestimated.
+
+Replacing this filter is the central investment that will allow the Hydropool to function properly and efficiently for years to come. All other works — the flooring, the grates, the changing rooms — are important, but the filter replacement is the backbone of the whole project. It represents a major financial commitment by the Trust and reflects how seriously we take the long-term quality of this facility.
 
 **Pool Changing Rooms**
 Refurbishment work on the pool changing rooms is also underway. Improvements are ongoing and will continue over the coming weeks.
