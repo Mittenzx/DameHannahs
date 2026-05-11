@@ -75,7 +75,7 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 **Timeline:** Decisions required urgently (May 2026)  
 **Impact:** Significant resource constraint – internal team capacity insufficient while Hydropool and Rio refurbishments are ongoing  
 **Current Situation:** 
-- Volume of internal decoration work is substantial (dining room, living room, corridors, bedrooms, conservatory, staircases)
+- Volume of internal decoration work is substantial (dining room, living room, corridors, doors and doorframes)
 - Concurrent Hydropool and Rio refurbishments make internal team execution impossible
 **Action Required:** 
 - Determine if external contractor engagement is necessary for internal decoration works
@@ -93,15 +93,13 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 - **Kitchen & Dining Integration:** Removal of wall between kitchen and dining room to create open-plan space; coordinated flooring and finishes
 - **Conservatory:** Full clearance for use as secondary living area; new flooring; white decoration; new blind slats; external view tinting on windows
 - **Corridors & Circulation:** Decluttering and clearance of non-essential items; wall preparation; replastering where required; white decoration; enhanced lighting (LED with reactive capability via PIR upgrade); PPE stations in two alcove locations
-- **Individual Bedrooms:** Phased decoration based on resident needs and preferences
-- **Staircases:** Carpet review and replacement where required
+- **Doors and Doorframes:** Installation/replacement of all doors and doorframes throughout facility including bedroom doors, conservatory access, and staircase doors with coordinated finishes
 
 ### **Infrastructure & Systems**
 - Installation of medication units in resident rooms
 - Upstairs staff toilet flooring to restore operational status
 - Review and repair of fire doors (white finish); rectification of woodwork issues
 - Emergency exit door repair (downstairs toilet) – potential conversion to staff entrance/exit
-- Replacement of external doors on conservatory side
 - Full review of lighting and electrical in corridors with quote to upgrade to PIR LED (must be completed before corridor decoration)
 - Removal of all plastic/foam wall and ceiling squares
 - Window tinting (external view only) on new entrance route windows
