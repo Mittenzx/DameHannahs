@@ -1,7 +1,6 @@
 # EXECUTIVE SUMMARY
 ## Hannahwood Mews Improvements Project – 2026
 
-**Project Manager:** [Your Name]  
 **Period:** May – September/October 2026  
 **Total Budget:** £50,000 (Legacy Funding)
 
@@ -25,7 +24,13 @@ Hannahwood Mews is undertaking a comprehensive refurbishment programme to enhanc
 ## PROJECT PHASES
 
 ### **Phase 1: Quick Improvements (Priority) – May 2026**
-Focus on living areas, dining room, and conservatory to deliver immediate impact and prepare spaces for further works.
+Focus on facility optimization and space reorganization to improve operational efficiency and functionality.
+
+**Key Phase 1 Activities:**
+- Strip out and refurbish disused upstairs shower room as new feed room
+- Strip out current feed room at end of corridor for conversion to chair storage
+- Clear alcove with computer (including CCTV) for chair storage
+- Living areas, dining room, and conservatory preparation for further works
 
 ### **Phase 2: Internal Works – May–September 2026 (Weather Dependent)**
 Interior painting, decoration, and finishes during warmer months when ventilation is optimal.
@@ -64,6 +69,12 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 - Comprehensive lighting review with LED and reactive lighting upgrades
 - Removal of all plastic/foam wall and ceiling squares
 - Window tinting (external view only) on new entrance route windows
+
+### **Facility Reorganization**
+- Strip out and refurbish disused upstairs shower room as new feed room
+- Strip out current feed room at end of corridor for chair storage
+- Clear alcove with computer (including CCTV) for chair storage
+- Reorganize storage and equipment placement throughout facility
 
 ### **Environmental Improvements**
 - Corridor and social area decluttering (furniture, equipment, storage optimization)
@@ -105,7 +116,7 @@ To optimize the improved spaces:
 |---------|--------|
 | **Enhanced Resident Comfort** | Modern, bright, well-appointed living spaces |
 | **Improved Heating/Hot Water** | Reduced utility costs; enhanced resident comfort |
-| **Better Space Utilization** | Decluttered, organized, functional areas |
+| **Better Space Utilization** | Decluttered, organized, functional areas with optimized storage |
 | **Health & Safety Compliance** | Updated facilities, emergency protocols, environmental standards |
 | **Long-term Cost Savings** | Solar panels reduce energy costs; infrastructure improvements reduce maintenance needs |
 | **Improved Staff Efficiency** | Optimized layout and facilities support better operations |
@@ -116,7 +127,7 @@ To optimize the improved spaces:
 
 | Phase | Key Activities | Timeline |
 |-------|----------------|----------|
-| **Phase 1** | Dining room strip-out, living room door relocation, flooring | May 2026 |
+| **Phase 1** | Feed room refurb, storage reorganization, living areas prep | May 2026 |
 | **Phase 2** | Internal decoration and painting | June–August 2026 (weather dependent) |
 | **Phase 3** | External painting, gutters, solar panels | July–October 2026 (weather dependent) |
 | **Contingent** | Lobby/corridor works | Subject to funding availability |
