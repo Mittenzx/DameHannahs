@@ -30,7 +30,7 @@ Focus on facility optimization and space reorganization to improve operational e
 - Strip out and refurbish disused upstairs shower room as new feed room
 - Strip out current feed room at end of corridor for conversion to chair storage
 - Clear alcove with computer (including CCTV) for chair storage
-- Living areas, dining room, and conservatory preparation for further works
+- Strip out red walled area next to kitchen. All units, sinks pipework and flooring to go ready for plastering and new flooring
 
 ### **Phase 2: Internal Works – May–September 2026 (Weather Dependent)**
 Interior painting, decoration, and finishes during warmer months when ventilation is optimal.
@@ -74,6 +74,7 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 - Strip out and refurbish disused upstairs shower room as new feed room
 - Strip out current feed room at end of corridor for chair storage
 - Clear alcove with computer (including CCTV) for chair storage
+- Strip out red walled area next to kitchen. All units, sinks, pipework and flooring to go ready for plastering and new flooring
 - Reorganize storage and equipment placement throughout facility
 
 ### **Environmental Improvements**
@@ -127,7 +128,7 @@ To optimize the improved spaces:
 
 | Phase | Key Activities | Timeline |
 |-------|----------------|----------|
-| **Phase 1** | Feed room refurb, storage reorganization, living areas prep | May 2026 |
+| **Phase 1** | Feed room refurb, storage reorganization, red walled area strip-out | May 2026 |
 | **Phase 2** | Internal decoration and painting | June–August 2026 (weather dependent) |
 | **Phase 3** | External painting, gutters, solar panels | July–October 2026 (weather dependent) |
 | **Contingent** | Lobby/corridor works | Subject to funding availability |
