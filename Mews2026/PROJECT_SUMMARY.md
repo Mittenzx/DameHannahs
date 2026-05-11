@@ -31,9 +31,14 @@ Focus on facility optimization and space reorganization to improve operational e
 - Strip out current feed room at end of corridor for conversion to chair storage
 - Clear alcove with computer (including CCTV) for chair storage
 - Strip out red walled area next to kitchen. All units, sinks pipework and flooring to go ready for plastering and new flooring
+- Remove airing cupboard in the corridor
 
-### **Phase 2: Internal Works – May–September 2026 (Weather Dependent)**
-Interior painting, decoration, and finishes during warmer months when ventilation is optimal.
+### **Phase 2: Internal Works & Structural Changes – May–September 2026 (Weather Dependent)**
+Interior painting, decoration, and finishes during warmer months when ventilation is optimal. Key structural work includes removal of wall between kitchen and dining room, and relocation of door to living room from corridor.
+
+**Key Phase 2 Activities:**
+- Removal of wall between kitchen and dining room to create open-plan living/dining space
+- Relocation of door to living room from corridor
 
 ### **Phase 3: External Works – Summer/Autumn 2026 (Weather Dependent)**
 External painting, roofing work, and environmental improvements when weather permits.
@@ -54,7 +59,8 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 
 ### **Internal Refurbishment**
 - **Dining Room:** Complete strip-out of existing units; wall preparation (replastering if required); new flooring; fresh decoration
-- **Living Room:** Relocation of doorway to improve space flow; new flooring; decoration with resident-approved colour scheme
+- **Living Room:** Relocation of doorway from corridor to improve space flow; new flooring; decoration with resident-approved colour scheme
+- **Kitchen & Dining Integration:** Removal of wall between kitchen and dining room to create open-plan space; coordinated flooring and finishes
 - **Conservatory:** Full clearance for use as secondary living area; new flooring; white decoration; new blind slats; external view tinting on windows
 - **Corridors & Circulation:** Decluttering and clearance of non-essential items; wall preparation; replastering where required; white decoration; enhanced lighting (LED with reactive capability); PPE stations in two alcove locations
 - **Individual Bedrooms:** Phased decoration based on resident needs and preferences
@@ -75,7 +81,12 @@ New lobby and corridor refurbishment – potential future enhancement pending bu
 - Strip out current feed room at end of corridor for chair storage
 - Clear alcove with computer (including CCTV) for chair storage
 - Strip out red walled area next to kitchen. All units, sinks, pipework and flooring to go ready for plastering and new flooring
+- Remove airing cupboard in the corridor
 - Reorganize storage and equipment placement throughout facility
+
+### **Structural Changes**
+- Removal of wall between kitchen and dining room to create open-plan living/dining space
+- Relocation of door to living room from corridor
 
 ### **Environmental Improvements**
 - Corridor and social area decluttering (furniture, equipment, storage optimization)
@@ -117,7 +128,7 @@ To optimize the improved spaces:
 |---------|--------|
 | **Enhanced Resident Comfort** | Modern, bright, well-appointed living spaces |
 | **Improved Heating/Hot Water** | Reduced utility costs; enhanced resident comfort |
-| **Better Space Utilization** | Decluttered, organized, functional areas with optimized storage |
+| **Better Space Utilization** | Decluttered, organized, functional areas with optimized storage; open-plan living/dining space |
 | **Health & Safety Compliance** | Updated facilities, emergency protocols, environmental standards |
 | **Long-term Cost Savings** | Solar panels reduce energy costs; infrastructure improvements reduce maintenance needs |
 | **Improved Staff Efficiency** | Optimized layout and facilities support better operations |
@@ -128,8 +139,8 @@ To optimize the improved spaces:
 
 | Phase | Key Activities | Timeline |
 |-------|----------------|----------|
-| **Phase 1** | Feed room refurb, storage reorganization, red walled area strip-out | May 2026 |
-| **Phase 2** | Internal decoration and painting | June–August 2026 (weather dependent) |
+| **Phase 1** | Feed room refurb, storage reorganization, red walled area strip-out, airing cupboard removal | May 2026 |
+| **Phase 2** | Wall removal (kitchen/dining), door relocation, internal decoration and painting | June–August 2026 (weather dependent) |
 | **Phase 3** | External painting, gutters, solar panels | July–October 2026 (weather dependent) |
 | **Contingent** | Lobby/corridor works | Subject to funding availability |
 
@@ -147,6 +158,7 @@ To optimize the improved spaces:
 ## RISK MANAGEMENT
 
 - **Weather dependency** – External works contingent on suitable conditions; scheduling flexibility built into phases
+- **Structural work complexity** – Wall removal and door relocation require careful planning and professional execution
 - **Scope clarity** – Action plan agreed with team and stakeholders to prevent scope creep
 - **Resource coordination** – Mix of internal and external resources requires clear scheduling and communication
 - **Resident impact** – Phased approach minimizes disruption to residents during works
@@ -156,7 +168,7 @@ To optimize the improved spaces:
 ## NEXT STEPS
 
 1. Finalize detailed action plan with team and stakeholders
-2. Confirm contractor appointments and schedules
+2. Confirm contractor appointments and schedules (particularly for structural work)
 3. Establish resident communication protocol for works notifications
 4. Lock in budget allocation across phases
 5. Weekly progress reviews and schedule management
