@@ -59,27 +59,30 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
-### **Activity 3: Clear Alcove with Computer (Including CCTV) for Chair Storage**
+### **Activity 3: Clear Alcove for Chair Storage and Computer Relocation**
 
-**Objective:** Repurpose alcove space for equipment/chair storage
+**Objective:** Repurpose alcove space for equipment/chair storage; relocate computer upstairs
 
 **Key Tasks:**
-- [ ] Document current computer system and CCTV setup
-- [ ] Identify alternative location for computer if relocation needed
-- [ ] Assess CCTV camera positioning and any coverage gaps
+- [ ] Remove redundant CCTV system infrastructure completely (old/redundant – no cameras in building)
 - [ ] Remove computer equipment and associated infrastructure (cables, etc.)
-- [ ] Clear alcove completely of obstructions
-- [ ] Plan storage shelving/racking for alcove
+- [ ] Disconnect and safely dispose of all CCTV cabling and mounting hardware
+- [ ] Clean alcove completely of obstructions
+- [ ] Transport computer to upstairs back room
+- [ ] Install computer on desk in upstairs back room with proper setup (power, network connections)
+- [ ] Test computer functionality and connections in new location
+- [ ] Plan storage shelving/racking for alcove for chair storage
 - [ ] Design layout to maximize chair storage capacity
 
 **Resources Required:**
 - Maintenance Team (internal)
-- IT support (if computer relocation required)
+- IT support (computer installation in back room)
 - Storage/shelving materials (to be ordered)
+- Disposal for CCTV infrastructure
 
-**Dependencies:** May require IT consultation for computer relocation
+**Dependencies:** IT support for safe computer relocation and setup
 
-**Target Completion:** Alcove cleared and storage plan finalized by 24 May
+**Target Completion:** Alcove cleared, redundant CCTV removed, and computer relocated upstairs by 24 May; storage plan finalized
 
 ---
 
@@ -156,11 +159,11 @@ This document outlines the priority actions for the first two weeks of the Hanna
 | Factor | Action |
 |--------|--------|
 | **Clear Communication** | Daily toolbox talks with maintenance team; weekly progress meetings |
-| **Resource Availability** | Confirm maintenance team availability for all scheduled works |
+| **Resource Availability** | Confirm maintenance team availability for all scheduled works; IT support confirmed for computer relocation |
 | **Contractor Engagement** | Electrical contractor site visits scheduled by 24 May; quotes received by 31 May |
-| **Health & Safety** | All works follow H&S protocols; proper PPE and equipment used; skip safety managed |
-| **Waste Management** | Arrange skip hire immediately; ensure proper disposal of all materials |
-| **Documentation** | Photograph before/after; document any issues discovered during strip-outs |
+| **Health & Safety** | All works follow H&S protocols; proper PPE and equipment used; skip safety managed; safe disposal of electrical infrastructure |
+| **Waste Management** | Arrange skip hire immediately; ensure proper disposal of all materials including CCTV infrastructure |
+| **Documentation** | Photograph before/after; document any issues discovered during strip-outs; confirm computer installation in new location |
 
 ---
 
@@ -169,7 +172,9 @@ This document outlines the priority actions for the first two weeks of the Hanna
 ### **End of Week 1 (24 May)**
 - [ ] Upstairs shower room stripped out and assessed
 - [ ] Current feed room cleared and equipment relocated
-- [ ] Alcove stripped and storage plan finalized
+- [ ] Alcove cleared, CCTV system removed, computer relocated upstairs to back room
+- [ ] Computer tested and operational in new location
+- [ ] Storage plan finalized
 - [ ] Progress meeting held; Week 2 activities confirmed
 
 ### **End of Week 2 (31 May)**
@@ -191,6 +196,8 @@ This document outlines the priority actions for the first two weeks of the Hanna
 | **Material disposal delays** | Arrange skip hire in advance; confirm collection schedule |
 | **Resource conflicts with other projects** | Confirm team allocation at start of week 1; escalate conflicts early |
 | **Safety incidents during strip-outs** | Brief all staff on H&S; use appropriate PPE; follow safe work procedures |
+| **IT support unavailability for computer relocation** | Confirm IT support availability in advance; identify backup support if required |
+| **Network/power connectivity issues in back room** | Survey back room connectivity before relocation; prepare network drops and power points |
 
 ---
 
@@ -198,11 +205,12 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 1. ✅ Upstairs shower room converted to feed room (95% complete)
 2. ✅ Existing feed room converted to chair storage (100% complete)
-3. ✅ Alcove cleared with storage plan finalized (100% complete)
-4. ✅ Red walled area strip-out complete (100% complete)
-5. ✅ Electrical contractor quotes obtained (100% complete)
-6. ✅ Management approval on electrical upgrade approach
-7. ✅ Phase 2 activities ready to commence
+3. ✅ Alcove cleared with CCTV removed and computer relocated upstairs (100% complete)
+4. ✅ Computer operational in upstairs back room (100% complete)
+5. ✅ Red walled area strip-out complete (100% complete)
+6. ✅ Electrical contractor quotes obtained (100% complete)
+7. ✅ Management approval on electrical upgrade approach
+8. ✅ Phase 2 activities ready to commence
 
 ---
 
@@ -211,8 +219,9 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - All measurements and room dimensions should be documented for Phase 2 planning
 - Photographs of current conditions recommended before and after strip-outs
 - Any significant issues or delays must be reported to Project Manager immediately
-- Week 1 focus: Strip-out and clearance activities
+- Week 1 focus: Strip-out, clearance, and CCTV removal activities
 - Week 2 focus: Continuation + external contractor engagement (electrical)
+- Computer relocation to upstairs back room must be completed by end of Week 1 to free up alcove space for storage
 
 ---
 
