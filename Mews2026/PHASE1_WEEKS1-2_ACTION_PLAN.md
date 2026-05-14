@@ -1,13 +1,13 @@
 # HANNAHWOOD MEWS IMPROVEMENTS PROJECT
 ## Week 1 & 2 Action Plan (18 May – 31 May 2026)
 
-**Focus:** Phase 1 – Top 4 Key Activities
+**Focus:** Phase 1 – Key Activities Week 1 & 2
 
 ---
 
 ## OVERVIEW
 
-This document outlines the priority actions for the first two weeks of the Hannahwood Mews Improvements Project. These four activities form the foundation of Phase 1 and must be completed or substantially progressed by end of May to maintain project timeline.
+This document outlines the priority actions for the first two weeks of the Hannahwood Mews Improvements Project. Activities 1 and 2 form the foundation of Phase 1 Week 1, with Activities 3 and 4 commencing in Week 2. Red walled area work will begin Week 3 onwards.
 
 ---
 
@@ -46,8 +46,6 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - [ ] Ensure shelving is secure and tested for load capacity
 - [ ] Inventory all feed room equipment and stock currently downstairs
 - [ ] Move stock to new feed room upstairs
-- [ ] Organize and store items on new shelving in logical order
-- [ ] Verify all items accounted for in new location
 
 **Resources Required:**
 - Maintenance Team (internal)
@@ -57,6 +55,22 @@ This document outlines the priority actions for the first two weeks of the Hanna
 **Dependencies:** Activity 1 - Shelving design must be confirmed with KP before building can commence; upstairs room must be stripped and prepared
 
 **Target Completion:** Shelving built and installed by 22 May; all feed room stock moved upstairs and organized by 24 May
+
+---
+
+## WEEK 2: 25 – 31 May 2026
+
+### **Activity 1: Strip Out and Refurbish Disused Upstairs Shower Room (Continued)**
+
+**Objective:** Complete refurbishment works and prepare feed room for full operation
+
+**Key Tasks:**
+- [ ] Complete any remaining fixture removal and disposal
+- [ ] Finalize wall and floor preparation
+- [ ] Verify shelving installation is complete and secure
+- [ ] Plan timeline for final commissioning (June onwards)
+
+**Target Completion:** Room fully prepared as operational feed room
 
 ---
 
@@ -83,9 +97,9 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - Storage space for reusable items (if applicable)
 - Disposal arrangements
 
-**Dependencies:** Activity 2 - All feed room equipment and stock must be moved upstairs BEFORE cupboard/worktop/plumbing removal
+**Dependencies:** Activity 2 Week 1 - All feed room equipment and stock must be moved upstairs BEFORE cupboard/worktop/plumbing removal
 
-**Target Completion:** Complete strip-out of all cupboards, worktops, plumbing and sink by 24 May
+**Target Completion:** Complete strip-out of all cupboards, worktops, plumbing and sink by 31 May
 
 ---
 
@@ -112,51 +126,11 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 **Dependencies:** IT support for safe computer relocation and setup
 
-**Target Completion:** Alcove cleared, redundant CCTV removed, computer relocated and tested by 24 May; ready for wheelchair/chair storage
+**Target Completion:** Alcove cleared, redundant CCTV removed, computer relocated and tested by 31 May; ready for wheelchair/chair storage
 
 ---
 
-## WEEK 2: 25 – 31 May 2026
-
-### **Activity 1: Strip Out and Refurbish Disused Upstairs Shower Room (Continued)**
-
-**Objective:** Complete refurbishment works and prepare feed room for full operation
-
-**Key Tasks:**
-- [ ] Complete any remaining fixture removal and disposal
-- [ ] Finalize wall and floor preparation
-- [ ] Verify shelving installation is complete and secure
-- [ ] Plan timeline for final commissioning (June onwards)
-
-**Target Completion:** Room fully prepared as operational feed room
-
----
-
-### **Activity 2: Strip Out Red Walled Area Next to Kitchen**
-
-**Objective:** Begin strip-out of red walled area ready for replastering and new flooring
-
-**Key Tasks:**
-- [ ] Strip out all existing kitchen units, sinks, and equipment in red walled area
-- [ ] Remove all pipework and electrical fixtures
-- [ ] Remove existing flooring
-- [ ] Document any plumbing/electrical connections for future works
-- [ ] Dispose of old materials
-- [ ] Inspect walls and ceiling condition
-- [ ] Prepare surface for replastering (Phase 2)
-
-**Resources Required:**
-- Maintenance Team (internal)
-- Specialist contractor for plumbing disconnections (if required)
-- Disposal arrangements
-
-**Dependencies:** None – can proceed alongside other activities
-
-**Target Completion:** Complete strip-out by 31 May; ready for Phase 2 plastering
-
----
-
-### **Activity 3: Full Review of Lighting and Electrical in Corridors (With Contractor Quote)**
+### **Activity 5: Full Review of Lighting and Electrical in Corridors (With Contractor Quote)**
 
 **Objective:** Obtain professional quote for PIR LED upgrade to corridors before decoration begins
 
@@ -183,6 +157,34 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
+## WEEK 3 ONWARDS: 1 June 2026
+
+### **Activity 6: Strip Out Red Walled Area Next to Kitchen**
+
+**Objective:** Strip-out of red walled area ready for replastering and new flooring
+
+**Key Tasks:**
+- [ ] Strip out all existing kitchen units, sinks, and equipment in red walled area
+- [ ] Remove all pipework and electrical fixtures
+- [ ] Remove existing flooring
+- [ ] Document any plumbing/electrical connections for future works
+- [ ] Dispose of old materials
+- [ ] Inspect walls and ceiling condition
+- [ ] Prepare surface for replastering (Phase 2)
+
+**Resources Required:**
+- Maintenance Team (internal)
+- Specialist contractor for plumbing disconnections (if required)
+- Disposal arrangements
+
+**Dependencies:** None – can proceed alongside other activities
+
+**Timeline:** Week 3 onwards (commences 1 June 2026)
+
+**Target Completion:** Complete strip-out by end of June; ready for Phase 2 plastering
+
+---
+
 ## CRITICAL SUCCESS FACTORS
 
 | Factor | Action |
@@ -190,7 +192,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 | **Clear Communication** | Daily toolbox talks with maintenance team; weekly progress meetings; KP consultation scheduled early Week 1 |
 | **Resource Availability** | Confirm maintenance team availability for all scheduled works; IT support confirmed for computer relocation |
 | **Design Confirmation** | KP consultation for feed room shelving design must be completed by mid-Week 1 to enable building/installation |
-| **Sequencing** | Activity 2 (shelving build & move stock) must be completed BEFORE Activity 3 (cupboard/plumbing removal) to ensure feed room moved first |
+| **Sequencing** | Activity 2 Week 1 (shelving build & move stock) MUST be completed before Activity 3 Week 2 (cupboard/plumbing removal) |
 | **Contractor Engagement** | Electrical contractor site visits scheduled by 24 May; quotes received by 31 May |
 | **Health & Safety** | All works follow H&S protocols; proper PPE and equipment used; safe disposal of all materials |
 | **Waste Management** | Arrange disposal for all materials including CCTV infrastructure, fixtures, and plumbing |
@@ -204,20 +206,19 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - [ ] Upstairs shower room toilet and sink removed and disposed
 - [ ] **Shelving design for new feed room confirmed with KP**
 - [ ] **Shelving built and installed in upstairs feed room**
-- [ ] **All feed room stock moved upstairs to new room and organized**
-- [ ] All cupboards, worktops, plumbing and sink removed from old feed room
-- [ ] Alcove cleared completely, CCTV system removed
-- [ ] Computer relocated upstairs to back room and tested operational
+- [ ] **All feed room stock moved upstairs to new room**
 - [ ] Progress meeting held; Week 2 activities confirmed
 
 ### **End of Week 2 (31 May)**
-- [ ] Upstairs feed room fully operational with all stock organized
+- [ ] Upstairs feed room fully operational with all stock in place
+- [ ] All cupboards, worktops, plumbing and sink removed from old feed room
 - [ ] Old feed room ready for conversion to chair storage
+- [ ] Alcove cleared completely, CCTV system removed
+- [ ] Computer relocated upstairs to back room and tested operational
 - [ ] Alcove ready for wheelchair and comfy chair storage
-- [ ] Red walled area complete strip-out
 - [ ] Electrical contractor quotes obtained and reviewed
 - [ ] Management sign-off on electrical upgrade approach
-- [ ] Phase 2 activities ready to commence (1 June)
+- [ ] Phase 1 Week 1-2 activities complete; Week 3+ activities ready to commence
 
 ---
 
@@ -238,13 +239,13 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
-## DELIVERABLES BY 31 MAY
+## DELIVERABLES BY END OF WEEK 2 (31 MAY)
 
 1. ✅ Upstairs shower room refurbished as operational feed room (100% complete)
 2. ✅ Toilet and sink removed and disposed (100% complete)
 3. ✅ Shelving design confirmed with KP (100% complete)
 4. ✅ Shelving built and installed in new upstairs feed room (100% complete)
-5. ✅ All feed room stock moved upstairs and organized (100% complete)
+5. ✅ All feed room stock moved upstairs (100% complete)
 6. ✅ All cupboards and worktops removed from old feed room (100% complete)
 7. ✅ Plumbing and sink removed from old feed room (100% complete)
 8. ✅ Old feed room ready for chair storage conversion (100% complete)
@@ -254,7 +255,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 12. ✅ Alcove ready for wheelchair and comfy chair storage (100% complete)
 13. ✅ Electrical contractor quotes obtained (100% complete)
 14. ✅ Management approval on electrical upgrade approach
-15. ✅ Phase 2 activities ready to commence
+15. ✅ Phase 1 Week 1-2 complete; ready for Week 3 onwards
 
 ---
 
@@ -263,16 +264,17 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - All measurements and room dimensions should be documented for Phase 2 planning
 - Photographs of current conditions recommended before and after strip-outs
 - Any significant issues or delays must be reported to Project Manager immediately
-- **CRITICAL SEQUENCING:** Activity 2 (shelving build & move stock upstairs) MUST be completed before Activity 3 (cupboard/plumbing removal)
-- Week 1 focus: Shelving design confirmation with KP → Build shelving → Move stock upstairs → Remove cupboards/plumbing/sink → Clear alcove
-- Week 2 focus: External contractor engagement (electrical) + red walled area strip-out
-- Computer relocation to upstairs back room must be completed by end of Week 1 to free up alcove space for storage
+- **CRITICAL SEQUENCING:** Activity 2 Week 1 (shelving build & move stock upstairs) MUST be completed before Activity 3 Week 2 (cupboard/plumbing removal)
+- Week 1 focus: Shelving design confirmation with KP → Build shelving → Move stock upstairs
+- Week 2 focus: Complete feed room refurbishment → Remove cupboards/plumbing/sink → Clear alcove → Electrical contractor engagement
+- Week 3+ focus: Red walled area strip-out
+- Computer relocation to upstairs back room must be completed by end of Week 2 to free up alcove space for storage
 - Feed room shelving design confirmation with KP is critical path item – must not delay
 - Alcove will provide storage for wheelchairs and comfy chairs once cleared
 
 ---
 
 **Prepared for:** Hannahwood Mews Project Team  
-**Period:** 18 – 31 May 2026  
+**Period:** 18 – 31 May 2026 (Week 1 & 2); Week 3 onwards from 1 June 2026  
 **Project Status:** Phase 1 – Critical Commencement Period  
-**Next Review:** 1 June 2026 (Phase 2 Kick-off)
+**Next Review:** 1 June 2026 (Week 3 Kick-off)
