@@ -1,0 +1,46 @@
+﻿2026-05-18T06:27:24.5501965Z ##[group]Run # Create PDF output directory if it doesn't exist
+2026-05-18T06:27:24.5502492Z [36;1m# Create PDF output directory if it doesn't exist[0m
+2026-05-18T06:27:24.5502814Z [36;1mmkdir -p Mews2026/PDF_Exports[0m
+2026-05-18T06:27:24.5503055Z [36;1m[0m
+2026-05-18T06:27:24.5503301Z [36;1m# Convert all markdown files in Mews2026 directory to PDF[0m
+2026-05-18T06:27:24.5503624Z [36;1mfor file in Mews2026/*.md; do[0m
+2026-05-18T06:27:24.5503867Z [36;1m  if [ -f "$file" ]; then[0m
+2026-05-18T06:27:24.5504123Z [36;1m    filename=$(basename "$file" .md)[0m
+2026-05-18T06:27:24.5504464Z [36;1m    pandoc "$file" -o "Mews2026/PDF_Exports/${filename}.pdf" \[0m
+2026-05-18T06:27:24.5505160Z [36;1m      --from markdown \[0m
+2026-05-18T06:27:24.5505397Z [36;1m      --to pdf \[0m
+2026-05-18T06:27:24.5505631Z [36;1m      --pdf-engine=wkhtmltopdf \[0m
+2026-05-18T06:27:24.5505914Z [36;1m      --variable mainfont="DejaVu Sans" \[0m
+2026-05-18T06:27:24.5506207Z [36;1m      --variable sansfont="DejaVu Sans" \[0m
+2026-05-18T06:27:24.5506555Z [36;1m      --variable monofont="DejaVu Sans Mono" \[0m
+2026-05-18T06:27:24.5506859Z [36;1m      --variable fontsize=11pt \[0m
+2026-05-18T06:27:24.5507121Z [36;1m      --variable geometry:margin=1in \[0m
+2026-05-18T06:27:24.5507374Z [36;1m      --toc \[0m
+2026-05-18T06:27:24.5507570Z [36;1m      --number-sections[0m
+2026-05-18T06:27:24.5507908Z [36;1m    echo "✅ Converted: $file → Mews2026/PDF_Exports/${filename}.pdf"[0m
+2026-05-18T06:27:24.5508265Z [36;1m  fi[0m
+2026-05-18T06:27:24.5508431Z [36;1mdone[0m
+2026-05-18T06:27:24.5543767Z shell: /usr/bin/bash -e {0}
+2026-05-18T06:27:24.5544010Z ##[endgroup]
+2026-05-18T06:27:24.6492787Z [WARNING] This document format requires a nonempty <title> element.
+2026-05-18T06:27:24.6493840Z   Defaulting to 'PHASE1_WEEKS1-2_ACTION_PLAN' as the title.
+2026-05-18T06:27:24.6495755Z   To specify a title, use 'title' in metadata or --metadata title="...".
+2026-05-18T06:27:24.9428076Z Loading page (1/2)
+2026-05-18T06:27:24.9769271Z [>                                                           ] 0%
+2026-05-18T06:27:25.1762037Z [=============>                                              ] 22%
+2026-05-18T06:27:25.4461000Z [============================================================] 100%
+2026-05-18T06:27:25.4461613Z Printing pages (2/2)                                               
+2026-05-18T06:27:25.5595222Z [>                                                           ] 
+2026-05-18T06:27:25.5596195Z Done                                                           
+2026-05-18T06:27:25.5800574Z ✅ Converted: Mews2026/PHASE1_WEEKS1-2_ACTION_PLAN.md → Mews2026/PDF_Exports/PHASE1_WEEKS1-2_ACTION_PLAN.pdf
+2026-05-18T06:27:25.6365201Z [WARNING] This document format requires a nonempty <title> element.
+2026-05-18T06:27:25.6366138Z   Defaulting to 'PROJECT_SUMMARY' as the title.
+2026-05-18T06:27:25.6366675Z   To specify a title, use 'title' in metadata or --metadata title="...".
+2026-05-18T06:27:25.6765152Z Loading page (1/2)
+2026-05-18T06:27:25.6807132Z [>                                                           ] 0%
+2026-05-18T06:27:25.7403454Z [=============>                                              ] 22%
+2026-05-18T06:27:25.9448840Z [============================================================] 100%
+2026-05-18T06:27:25.9449478Z Printing pages (2/2)                                               
+2026-05-18T06:27:26.0396211Z [>                                                           ] 
+2026-05-18T06:27:26.0397386Z Done                                                           
+2026-05-18T06:27:26.0554545Z ✅ Converted: Mews2026/PROJECT_SUMMARY.md → Mews2026/PDF_Exports/PROJECT_SUMMARY.pdf

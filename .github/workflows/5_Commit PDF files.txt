@@ -1,0 +1,22 @@
+﻿2026-05-18T06:27:26.0583077Z ##[group]Run git config --local user.email "action@github.com"
+2026-05-18T06:27:26.0583530Z [36;1mgit config --local user.email "action@github.com"[0m
+2026-05-18T06:27:26.0583881Z [36;1mgit config --local user.name "GitHub Action"[0m
+2026-05-18T06:27:26.0584158Z [36;1m[0m
+2026-05-18T06:27:26.0584354Z [36;1m# Check if there are changes to commit[0m
+2026-05-18T06:27:26.0584973Z [36;1mif [ -n "$(git status --porcelain)" ]; then[0m
+2026-05-18T06:27:26.0585276Z [36;1m  git add Mews2026/PDF_Exports/[0m
+2026-05-18T06:27:26.0585610Z [36;1m  git commit -m "Auto-generate PDF exports from Markdown files"[0m
+2026-05-18T06:27:26.0585937Z [36;1m  git push[0m
+2026-05-18T06:27:26.0586190Z [36;1m  echo "✅ PDFs committed and pushed successfully"[0m
+2026-05-18T06:27:26.0586490Z [36;1melse[0m
+2026-05-18T06:27:26.0586692Z [36;1m  echo "ℹ️ No changes to commit"[0m
+2026-05-18T06:27:26.0586927Z [36;1mfi[0m
+2026-05-18T06:27:26.0620676Z shell: /usr/bin/bash -e {0}
+2026-05-18T06:27:26.0620919Z ##[endgroup]
+2026-05-18T06:27:26.1216898Z [main b169364] Auto-generate PDF exports from Markdown files
+2026-05-18T06:27:26.1217566Z  2 files changed, 0 insertions(+), 0 deletions(-)
+2026-05-18T06:27:26.1217979Z  create mode 100644 Mews2026/PDF_Exports/PHASE1_WEEKS1-2_ACTION_PLAN.pdf
+2026-05-18T06:27:26.1218631Z  create mode 100644 Mews2026/PDF_Exports/PROJECT_SUMMARY.pdf
+2026-05-18T06:27:26.3805383Z remote: Permission to Mittenzx/DameHannahs.git denied to github-actions[bot].
+2026-05-18T06:27:26.3806728Z fatal: unable to access 'https://github.com/Mittenzx/DameHannahs/': The requested URL returned error: 403
+2026-05-18T06:27:26.3837241Z ##[error]Process completed with exit code 128.
