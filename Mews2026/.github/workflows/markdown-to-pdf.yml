@@ -1,0 +1,61 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Mews2026/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  markdown-to-pdf:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+      
+      - name: Convert Markdown files to PDF
+        run: |
+          # Create PDF output directory if it doesn't exist
+          mkdir -p Mews2026/PDF_Exports
+          
+          # Convert all markdown files in Mews2026 directory to PDF
+          for file in Mews2026/*.md; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .md)
+              pandoc "$file" -o "Mews2026/PDF_Exports/${filename}.pdf" \
+                --from markdown \
+                --to pdf \
+                --pdf-engine=wkhtmltopdf \
+                --variable mainfont="DejaVu Sans" \
+                --variable sansfont="DejaVu Sans" \
+                --variable monofont="DejaVu Sans Mono" \
+                --variable fontsize=11pt \
+                --variable geometry:margin=1in \
+                --toc \
+                --number-sections
+              echo "✅ Converted: $file → Mews2026/PDF_Exports/${filename}.pdf"
+            fi
+          done
+      
+      - name: Commit PDF files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are changes to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git add Mews2026/PDF_Exports/
+            git commit -m "Auto-generate PDF exports from Markdown files"
+            git push
+            echo "✅ PDFs committed and pushed successfully"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
