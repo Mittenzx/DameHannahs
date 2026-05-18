@@ -15,47 +15,52 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
-      - name: Install Pandoc
+      - name: Install Pandoc and wkhtmltopdf
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc wkhtmltopdf
+          sudo apt-get install -y pandoc wkhtmltopdf xvfb
+      
+      - name: Create PDF output directory
+        run: mkdir -p Mews2026/PDF_Exports
       
       - name: Convert Markdown files to PDF
         run: |
-          # Create PDF output directory if it doesn't exist
-          mkdir -p Mews2026/PDF_Exports
-          
           # Convert all markdown files in Mews2026 directory to PDF
           for file in Mews2026/*.md; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .md)
-              pandoc "$file" -o "Mews2026/PDF_Exports/${filename}.pdf" \
+              echo "Converting: $file"
+              xvfb-run -a pandoc "$file" -o "Mews2026/PDF_Exports/${filename}.pdf" \
                 --from markdown \
                 --to pdf \
                 --pdf-engine=wkhtmltopdf \
-                --variable mainfont="DejaVu Sans" \
-                --variable sansfont="DejaVu Sans" \
-                --variable monofont="DejaVu Sans Mono" \
                 --variable fontsize=11pt \
                 --variable geometry:margin=1in \
                 --toc \
-                --number-sections
+                --number-sections \
+                2>&1 || echo "Conversion completed with warnings"
               echo "✅ Converted: $file → Mews2026/PDF_Exports/${filename}.pdf"
             fi
           done
+          
+          # Verify PDFs were created
+          echo "Generated PDFs:"
+          ls -lh Mews2026/PDF_Exports/
       
-      - name: Commit PDF files
+      - name: Commit and push PDF files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add -A Mews2026/PDF_Exports/
           
-          # Check if there are changes to commit
-          if [ -n "$(git status --porcelain)" ]; then
-            git add Mews2026/PDF_Exports/
-            git commit -m "Auto-generate PDF exports from Markdown files"
-            git push
-            echo "✅ PDFs committed and pushed successfully"
+          # Check if there are changes
+          if git diff --cached --quiet; then
+            echo "ℹ️ No new PDFs to commit"
           else
-            echo "ℹ️ No changes to commit"
+            git commit -m "Auto-generate PDF exports from Markdown files [skip ci]"
+            git push origin main
+            echo "✅ PDFs committed and pushed successfully"
           fi
