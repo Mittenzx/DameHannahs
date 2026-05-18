@@ -8,9 +8,6 @@ on:
       - 'Mews2026/**/*.md'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   markdown-to-pdf:
     runs-on: ubuntu-latest
@@ -21,13 +18,118 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Install Pandoc and wkhtmltopdf
+      - name: Install Pandoc and dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc wkhtmltopdf xvfb
+          sudo apt-get install -y pandoc wkhtmltopdf xvfb texlive-xetex texlive-fonts-recommended texlive-latex-extra
       
       - name: Create PDF output directory
         run: mkdir -p Mews2026/PDF_Exports
+      
+      - name: Create Pandoc template for modern styling
+        run: |
+          cat > /tmp/template.latex << 'EOF'
+          \documentclass[12pt,a4paper]{article}
+          \usepackage[utf-8]{inputenc}
+          \usepackage[margin=1in]{geometry}
+          \usepackage{fancyhdr}
+          \usepackage{xcolor}
+          \usepackage{sectsty}
+          \usepackage{tocloft}
+          \usepackage{hyperref}
+          \usepackage{graphicx}
+          \usepackage{booktabs}
+          \usepackage{array}
+          \usepackage{colortbl}
+          \usepackage{listings}
+          
+          % Define colors
+          \definecolor{darkblue}{RGB}{25, 55, 109}
+          \definecolor{lightblue}{RGB}{230, 240, 250}
+          \definecolor{accentblue}{RGB}{0, 102, 204}
+          
+          % Section styling
+          \sectionfont{\color{darkblue}\fontsize{18}{20}\selectfont\bfseries}
+          \subsectionfont{\color{accentblue}\fontsize{14}{16}\selectfont\bfseries}
+          \subsubsectionfont{\color{darkblue}\fontsize{12}{14}\selectfont}
+          
+          % Table of contents styling
+          \renewcommand{\cftbeforetoctitleskip}{-1em}
+          \renewcommand{\cftaftertoctitleskip}{1.5em}
+          \renewcommand{\cfttoctitlefont}{\Large\bfseries\color{darkblue}}
+          \renewcommand{\cftsecfont}{\color{darkblue}}
+          \renewcommand{\cftsecpagefont}{\color{darkblue}}
+          
+          % Header and footer
+          \pagestyle{fancy}
+          \fancyhf{}
+          \fancyhead[L]{\small\color{darkblue}\textit{Hannahwood Mews Improvements}}
+          \fancyhead[R]{\small\color{darkblue}\today}
+          \fancyfoot[C]{\small\color{darkblue}Page \thepage}
+          \renewcommand{\headrulewidth}{1pt}
+          \renewcommand{\headrule}{\color{accentblue}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}
+          
+          % Table styling
+          \renewcommand{\arraystretch}{1.3}
+          \setlength{\arrayrulewidth}{1pt}
+          
+          % Code block styling
+          \lstset{
+            backgroundcolor=\color{lightblue},
+            basicstyle=\small\ttfamily,
+            breaklines=true,
+            frame=single,
+            rulecolor=\color{accentblue},
+            captionpos=b
+          }
+          
+          % Link styling
+          \hypersetup{
+            colorlinks=true,
+            linkcolor=accentblue,
+            urlcolor=accentblue,
+            citecolor=accentblue
+          }
+          
+          % Custom title page
+          \makeatletter
+          \renewcommand{\maketitle}{
+            \begin{titlepage}
+              \centering
+              \vspace*{2cm}
+              {\Huge\bfseries\color{darkblue}\@title\par}
+              \vspace{1.5cm}
+              {\Large\color{accentblue}\today\par}
+              \vspace{0.5cm}
+              {\large\color{darkblue}Hannahwood Mews Project Team\par}
+              \vfill
+              {\large\color{darkblue}Project Documentation\par}
+            \end{titlepage}
+          }
+          \makeatother
+          
+          $for(header-includes)$
+          $header-includes$
+          $endfor$
+          
+          \begin{document}
+          
+          $if(title)$
+          \title{$title$}
+          \author{}
+          \date{}
+          \maketitle
+          $endif$
+          
+          $if(toc)$
+          \tableofcontents
+          \newpage
+          $endif$
+          
+          $body$
+          
+          \end{document}
+          EOF
       
       - name: Convert Markdown files to PDF
         run: |
@@ -35,15 +137,22 @@ jobs:
             if [ -f "$file" ]; then
               filename=$(basename "$file" .md)
               echo "Converting: $file"
-              xvfb-run -a pandoc "$file" -o "Mews2026/PDF_Exports/${filename}.pdf" \
+              
+              title=$(grep -m 1 "^# " "$file" | sed 's/^# //')
+              
+              xvfb-run -a pandoc "$file" \
                 --from markdown \
                 --to pdf \
-                --pdf-engine=wkhtmltopdf \
-                --variable fontsize=11pt \
-                --variable geometry:margin=1in \
-                --toc \
+                --template=/tmp/template.latex \
+                --pdf-engine=xelatex \
+                --variable title="$title" \
+                --variable toc=true \
+                --variable colorlinks=true \
                 --number-sections \
-                2>&1 || echo "Conversion completed with warnings"
+                --top-level-division=section \
+                -o "Mews2026/PDF_Exports/${filename}.pdf" \
+                2>&1 || echo "Conversion completed"
+              
               echo "✅ Converted: $file → Mews2026/PDF_Exports/${filename}.pdf"
             fi
           done
