@@ -32,20 +32,22 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
-### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage**
+### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage** (89% COMPLETE)
 
 **Objective:** Clear alcove completely to prepare for wheelchair and comfy chair storage
 
-**Key Tasks:**
-- [ ] Remove redundant CCTV system infrastructure completely (old/redundant – no cameras in building)
-- [ ] Remove computer equipment and associated infrastructure (cables, etc.)
-- [ ] Disconnect and safely dispose of all CCTV cabling and mounting hardware
-- [ ] Clean alcove completely of all obstructions and debris
-- [ ] Transport computer to upstairs back room
-- [ ] Install computer on desk in upstairs back room with proper setup (power, network connections)
+**⏳ REMAINING TASK:**
 - [ ] Test computer functionality and connections in new location
-- [ ] Ensure alcove is clear and ready for wheelchair and comfy chair storage
-- [ ] Verify alcove floor is clean and suitable for equipment storage
+
+**✅ COMPLETED TASKS:**
+- [x] Remove redundant CCTV system infrastructure completely (old/redundant – no cameras in building)
+- [x] Remove computer equipment and associated infrastructure (cables, etc.)
+- [x] Disconnect and safely dispose of all CCTV cabling and mounting hardware
+- [x] Clean alcove completely of all obstructions and debris
+- [x] Transport computer to upstairs back room
+- [x] Install computer on desk in upstairs back room with proper setup (power, network connections)
+- [x] Ensure alcove is clear and ready for wheelchair and comfy chair storage
+- [x] Verify alcove floor is clean and suitable for equipment storage
 
 **Resources Required:**
 - Maintenance Team (internal)
@@ -53,7 +55,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - Disposal for CCTV infrastructure
 - Cleaning materials
 
-**Dependencies:** IT support for safe computer relocation and setup
+**Dependencies:** IT support for computer testing
 
 **Target Completion:** Alcove cleared, redundant CCTV removed, computer relocated and tested by 31 May; ready for wheelchair/chair storage
 
@@ -121,6 +123,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 | **Clear Communication** | Daily toolbox talks with maintenance team; weekly progress meetings; KP consultation scheduled early Week 1 |
 | **Resource Availability** | Confirm maintenance team availability for all scheduled works; IT support confirmed for computer relocation |
 | **Plumbing fixtures removal** | ⚠️ PRIORITY - Final outstanding task in Activity 3; assess remaining pipework layout; engage specialist if required |
+| **Computer testing** | ⏳ FINAL TASK - Activity 4 needs computer functionality and network connection verification |
 | **Contractor Engagement** | Electrical contractor site visits scheduled by 31 May Week 2; quotes received by 31 May |
 | **Health & Safety** | All works follow H&S protocols; proper PPE and equipment used; safe disposal of all materials |
 | **Waste Management** | Arrange disposal for all materials including CCTV infrastructure, fixtures, and plumbing |
@@ -134,9 +137,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 **Pending Completion:**
 - [ ] Remove plumbing fixtures and pipework (Activity 3 - 1 task remaining)
-- [ ] Alcove cleared completely, CCTV system removed (Activity 4)
-- [ ] Computer relocated upstairs to back room and tested operational (Activity 4)
-- [ ] Alcove ready for wheelchair and comfy chair storage (Activity 4)
+- [ ] Test computer functionality and connections (Activity 4 - 1 task remaining)
 - [ ] Electrical contractor quotes obtained and reviewed (Activity 5)
 - [ ] Management sign-off on electrical upgrade approach (Activity 5)
 - [ ] Week 3+ planning established for red walled area work
@@ -147,10 +148,10 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 7. ⏳ Plumbing and sink removed from old feed room (91% complete - pipework in progress)
 8. ⏳ Old feed room ready for chair storage conversion (pending plumbing completion)
-9. [ ] Alcove cleared completely
-10. [ ] CCTV system removed and disposed
-11. [ ] Computer relocated upstairs and operational
-12. [ ] Alcove ready for wheelchair and comfy chair storage
+9. ⏳ Alcove cleared completely (89% complete - computer testing pending)
+10. ✅ CCTV system removed and disposed (100% complete)
+11. ⏳ Computer relocated upstairs and operational (pending functionality testing)
+12. ⏳ Alcove ready for wheelchair and comfy chair storage (pending final computer testing)
 13. [ ] Electrical contractor quotes obtained
 14. [ ] Management approval on electrical upgrade approach
 15. [ ] Phase 1 Week 1-2 complete; Week 3 onwards ready to commence
@@ -224,6 +225,20 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
+### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage** (8/9 COMPLETE - 89%)
+
+**Completed Tasks:**
+- [x] Remove redundant CCTV system infrastructure completely (old/redundant – no cameras in building)
+- [x] Remove computer equipment and associated infrastructure (cables, etc.)
+- [x] Disconnect and safely dispose of all CCTV cabling and mounting hardware
+- [x] Clean alcove completely of all obstructions and debris
+- [x] Transport computer to upstairs back room
+- [x] Install computer on desk in upstairs back room with proper setup (power, network connections)
+- [x] Ensure alcove is clear and ready for wheelchair and comfy chair storage
+- [x] Verify alcove floor is clean and suitable for equipment storage
+
+---
+
 ## WEEKLY CHECKPOINT - COMPLETED
 
 ### **End of Week 1 (24 May)** ✅ COMPLETE
@@ -260,6 +275,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 | **Shelving build delays** | ✅ RESOLVED - Materials sourced and shelving built on schedule |
 | **Week 1 completion delays** | ✅ RESOLVED - Activities 1 & 2 completed successfully on schedule |
 | **Activity sequencing failure** | ✅ RESOLVED - Shelving built and stock moved before cupboard/plumbing removal began |
+| **CCTV removal** | ✅ RESOLVED - CCTV system removed and disposed successfully |
 
 ---
 
@@ -270,17 +286,16 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - Any significant issues or delays must be reported to Project Manager immediately
 - **CRITICAL SEQUENCING:**
   - **Week 1 ✅ COMPLETE:** Activities 1 & 2 (shelving design, build, stock move)
-  - **Week 2 IN PROGRESS:** Activity 1 ✅ | Activity 3: 91% complete (plumbing fixtures removal final task) | Activities 4 & 5: Ongoing
+  - **Week 2 IN PROGRESS:** Activity 1 ✅ | Activity 3: 91% complete (plumbing removal) | Activity 4: 89% complete (computer testing pending) | Activity 5: Ongoing
   - **Week 3+:** Red walled area work commences
 - **Week 1 completed successfully on schedule** – all activities delivered as planned
 - **Activity 3 update:** Plumbing fixtures and pipework removal is the final outstanding task
-- Computer relocation to upstairs back room must be completed by end of Week 2 to free up alcove space for storage
-- Alcove will provide storage for wheelchairs and comfy chairs once cleared
+- **Activity 4 update:** Almost complete – only computer functionality testing remains. Alcove is clear and ready for storage once computer is verified operational
 - Red walled area work scheduled for Week 3 onwards to allow focus on priority Week 1 & 2 activities
 
 ---
 
 **Prepared for:** Hannahwood Mews Project Team  
 **Period:** 18 – 31 May 2026 (Weeks 1 & 2); Week 3 onwards from 1 June 2026  
-**Project Status:** Phase 1 – Week 1 ✅ COMPLETE | Week 2 IN PROGRESS (91% complete)  
+**Project Status:** Phase 1 – Week 1 ✅ COMPLETE | Week 2 IN PROGRESS (90% complete)  
 **Next Review:** 31 May 2026 (Week 2 End + Week 3 Planning)
