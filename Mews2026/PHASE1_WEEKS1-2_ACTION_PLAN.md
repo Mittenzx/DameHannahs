@@ -32,7 +32,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
-### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage** (78% COMPLETE)
+### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage** (67% COMPLETE)
 
 **Objective:** Clear alcove completely to prepare for wheelchair and comfy chair storage
 
@@ -150,7 +150,7 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 7. ⏳ Plumbing and sink removed from old feed room (91% complete - pipework in progress)
 8. ⏳ Old feed room ready for chair storage conversion (pending plumbing completion)
-9. ⏳ Alcove cleared completely (78% complete - computer relocation/testing pending)
+9. ⏳ Alcove cleared completely (67% complete - computer transport, setup, testing pending)
 10. ✅ CCTV system removed and disposed (100% complete)
 11. ⏳ Computer relocated upstairs and operational (pending transport, setup, and testing)
 12. ⏳ Alcove ready for wheelchair and comfy chair storage (pending computer completion)
