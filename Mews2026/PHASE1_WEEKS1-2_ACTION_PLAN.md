@@ -32,24 +32,6 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ---
 
-### **Activity 4: Clear Alcove for Wheelchair and Comfy Chair Storage** ✅ COMPLETE
-
-**Objective:** Clear alcove completely to prepare for wheelchair and comfy chair storage
-
-**Status:** ✅ ALCOVE FULLY CLEARED AND READY FOR STORAGE
-
-**Completed Tasks:**
-- [x] Remove redundant CCTV system infrastructure completely (old/redundant – no cameras in building)
-- [x] Remove computer equipment and associated infrastructure (cables, etc.)
-- [x] Disconnect and safely dispose of all CCTV cabling and mounting hardware
-- [x] Clean alcove completely of all obstructions and debris
-- [x] Ensure alcove is clear and ready for wheelchair and comfy chair storage
-- [x] Verify alcove floor is clean and suitable for equipment storage
-
-**Target Completion:** ✅ Alcove cleared, redundant CCTV removed, ready for wheelchair/chair storage
-
----
-
 ### **Activity 5: Full Review of Lighting and Electrical in Corridors (With Contractor Quote)**
 
 **Objective:** Obtain professional quote for PIR LED upgrade to corridors before decoration begins
@@ -79,29 +61,35 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 ## WEEK 3 ONWARDS: 1 June 2026
 
-### **Red Walled Area Strip-Out (Week 3 onwards)**
+### **Red Walled Area Strip-Out (Week 3 onwards)** (71% COMPLETE)
 
 **Objective:** Strip-out of red walled area ready for replastering and new flooring
 
-**Key Tasks:**
-- [ ] Strip out all existing kitchen units, sinks, and equipment in red walled area
-- [ ] Remove all pipework and electrical fixtures
-- [ ] Remove existing flooring
-- [ ] Document any plumbing/electrical connections for future works
-- [ ] Dispose of old materials
-- [ ] Inspect walls and ceiling condition
-- [ ] Prepare surface for replastering (Phase 2)
+**⏳ REMAINING TASKS:**
+- [ ] Remove small sink
+- [ ] Remove shelf
+- [ ] Remove unit
+- [ ] Prepare walls for replastering
+
+**✅ COMPLETED TASKS:**
+- [x] Strip out all existing kitchen units and equipment (main units)
+- [x] Remove all pipework and electrical fixtures
+- [x] Remove existing flooring
+- [x] Document any plumbing/electrical connections for future works
+- [x] Dispose of old materials
+- [x] Inspect walls and ceiling condition
 
 **Resources Required:**
 - Maintenance Team (internal)
 - Specialist contractor for plumbing disconnections (if required)
 - Disposal arrangements
+- Surface preparation materials for wall replastering
 
 **Dependencies:** None – can proceed alongside other activities
 
 **Timeline:** Week 3 onwards (commences 1 June 2026)
 
-**Target Completion:** Complete strip-out by end of June; ready for Phase 2 plastering
+**Target Completion:** Complete strip-out and wall preparation by end of June; ready for Phase 2 plastering
 
 ---
 
@@ -109,12 +97,13 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 | Factor | Action |
 |--------|--------|
-| **Clear Communication** | Daily toolbox talks with maintenance team; weekly progress meetings; KP consultation scheduled early Week 1 |
+| **Clear Communication** | Daily toolbox talks with maintenance team; weekly progress meetings |
 | **Resource Availability** | Confirm maintenance team availability for all scheduled works |
 | **Plumbing fixtures removal** | ⚠️ PRIORITY - Final outstanding task in Activity 3; assess remaining pipework layout; engage specialist if required |
+| **Red Walled Area finalization** | ⏳ IN PROGRESS - Small sink, shelf, unit removal and wall preparation pending |
 | **Contractor Engagement** | Electrical contractor site visits scheduled by 31 May Week 2; quotes received by 31 May |
 | **Health & Safety** | All works follow H&S protocols; proper PPE and equipment used; safe disposal of all materials |
-| **Waste Management** | Arrange disposal for all materials including CCTV infrastructure, fixtures, and plumbing |
+| **Waste Management** | Arrange disposal for all materials including fixtures and plumbing |
 | **Documentation** | Photograph before/after; document any issues discovered during strip-outs |
 
 ---
@@ -127,7 +116,6 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - [ ] Remove plumbing fixtures and pipework (Activity 3 - 1 task remaining)
 - [ ] Electrical contractor quotes obtained and reviewed (Activity 5)
 - [ ] Management sign-off on electrical upgrade approach (Activity 5)
-- [ ] Week 3+ planning established for red walled area work
 
 ---
 
@@ -135,11 +123,10 @@ This document outlines the priority actions for the first two weeks of the Hanna
 
 7. ⏳ Plumbing and sink removed from old feed room (91% complete - pipework in progress)
 8. ⏳ Old feed room ready for chair storage conversion (pending plumbing completion)
-9. ✅ Alcove cleared completely and ready for storage (100% complete)
-10. ✅ CCTV system removed and disposed (100% complete)
-11. [ ] Electrical contractor quotes obtained
-12. [ ] Management approval on electrical upgrade approach
-13. [ ] Phase 1 Week 1-2 complete; Week 3 onwards ready to commence
+9. [ ] Electrical contractor quotes obtained
+10. [ ] Management approval on electrical upgrade approach
+11. ⏳ Red Walled Area strip-out complete (71% complete - sink, shelf, unit, wall prep pending)
+12. [ ] Red Walled Area ready for Phase 2 plastering
 
 ---
 
@@ -247,6 +234,8 @@ This document outlines the priority actions for the first two weeks of the Hanna
 4. ✅ Shelving built and installed in new upstairs feed room (100% complete)
 5. ✅ All feed room stock moved upstairs (100% complete)
 6. ✅ All cupboards and worktops removed from old feed room (100% complete)
+7. ✅ Alcove cleared completely and ready for storage (100% complete)
+8. ✅ CCTV system removed and disposed (100% complete)
 
 ---
 
@@ -271,15 +260,16 @@ This document outlines the priority actions for the first two weeks of the Hanna
 - **CRITICAL SEQUENCING:**
   - **Week 1 ✅ COMPLETE:** Activities 1 & 2 (shelving design, build, stock move)
   - **Week 2 IN PROGRESS:** Activity 1 ✅ | Activity 4 ✅ | Activity 3: 91% complete (plumbing removal pending) | Activity 5: Ongoing
-  - **Week 3+:** Red walled area work commences
+  - **Week 3+:** Red Walled Area work in progress (71% complete - sink, shelf, unit, wall prep pending)
 - **Week 1 completed successfully on schedule** – all activities delivered as planned
 - **Activity 3 update:** Plumbing fixtures and pipework removal is the final outstanding task (91% complete)
 - **Activity 4 update:** ✅ COMPLETE - Alcove fully cleared and ready for wheelchair and comfy chair storage
-- Red walled area work scheduled for Week 3 onwards to allow focus on priority Week 1 & 2 activities
+- **Red Walled Area update:** 71% complete - Main kitchen units, flooring, pipework, and electrical removed. Outstanding: small sink removal, shelf removal, unit removal, and wall preparation for replastering
+- Red walled area work will be ready for Phase 2 plastering once remaining items are completed
 
 ---
 
 **Prepared for:** Hannahwood Mews Project Team  
 **Period:** 18 – 31 May 2026 (Weeks 1 & 2); Week 3 onwards from 1 June 2026  
-**Project Status:** Phase 1 – Week 1 ✅ COMPLETE | Week 2 IN PROGRESS (92% complete)  
+**Project Status:** Phase 1 – Week 1 ✅ COMPLETE | Week 2 IN PROGRESS (91% complete) | Red Walled Area: 71% complete  
 **Next Review:** 31 May 2026 (Week 2 End + Week 3 Planning)
