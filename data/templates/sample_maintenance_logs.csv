@@ -1,0 +1,16 @@
+date,task_type,description,hours_spent,materials_cost,technician_name,location,priority,notes
+2024-01-15,electrician,Replace faulty outlet in break room,2.5,45.00,John Smith,Building A - Floor 2,High,Customer reported sparking
+2024-01-16,plumber,Fix leaking pipe under sink,1.5,120.00,Jane Doe,Building A - Kitchen,Medium,Water damage prevented
+2024-01-18,hvac_technician,Annual HVAC maintenance and filter replacement,3.0,85.00,Bob Johnson,Building A,Low,Routine maintenance
+2024-01-20,electrician,Install new lighting fixtures in conference room,4.0,350.00,John Smith,Building B - Floor 3,Medium,Upgrade project
+2024-01-22,carpenter,Repair damaged door frame,2.0,65.00,Mike Wilson,Building A - Main entrance,High,Security issue
+2024-01-25,general_handyman,Replace broken window blind,0.5,25.00,Tom Brown,Building C - Office 101,Low,Simple fix
+2024-01-28,plumber,Clear clogged drain in restroom,1.0,15.00,Jane Doe,Building B - Floor 1,High,Emergency call
+2024-02-01,painter,Touch up paint in hallway,3.5,110.00,Sarah Davis,Building A - Floor 1,Low,Aesthetic maintenance
+2024-02-05,electrician,Replace circuit breaker,2.0,180.00,John Smith,Building C - Electrical room,High,Safety issue
+2024-02-08,hvac_technician,Repair broken thermostat,1.5,95.00,Bob Johnson,Building B - Floor 2,Medium,Temperature control issue
+2024-02-10,landscaper,Trim bushes and trees around property,4.0,50.00,Green Team,Exterior - All buildings,Low,Seasonal maintenance
+2024-02-12,carpenter,Build custom storage shelving,6.0,275.00,Mike Wilson,Building A - Storage room,Medium,Organization project
+2024-02-15,general_handyman,Fix squeaky door hinges,0.5,10.00,Tom Brown,Building B - Multiple offices,Low,Preventive maintenance
+2024-02-18,electrician,Troubleshoot flickering lights,1.5,35.00,John Smith,Building C - Floor 1,Medium,Customer complaint
+2024-02-20,plumber,Replace worn out faucet,1.0,145.00,Jane Doe,Building A - Restroom,Medium,Preventive replacement
