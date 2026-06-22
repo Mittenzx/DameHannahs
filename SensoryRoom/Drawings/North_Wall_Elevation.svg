@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Dame Hannah Rogers Trust — Sensory Room Refurbishment
+  NORTH WALL ELEVATION (Feature / Projection Wall)
+  Drawing No: DHR-SR-02  |  Rev: A  |  Scale: 1:25 @ A3
+  Created: March 2026
+
+  HOW TO EDIT THIS FILE
+  ─────────────────────
+  Open with any SVG editor:
+    • Inkscape (free)  – inkscape.org
+    • Adobe Illustrator
+    • Affinity Designer
+    • Any modern web browser (view only)
+    • VS Code + SVG Preview extension
+
+  All elements (walls, equipment, dimensions, labels) are individual
+  named groups — click to select and edit freely.
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="420mm" height="297mm"
+  viewBox="0 0 1191 840"
+  font-family="'Arial', 'Helvetica', sans-serif"
+  version="1.1">
+
+  <defs>
+    <!-- Wall padding hatch -->
+    <pattern id="wall-pad-h" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#ddeeff"/>
+      <line x1="0" y1="8" x2="8" y2="0" stroke="#88aacc" stroke-width="1"/>
+    </pattern>
+    <!-- Floor padding hatch -->
+    <pattern id="floor-pad-h" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#e8f4f8"/>
+      <line x1="0" y1="12" x2="12" y2="0" stroke="#aad4e8" stroke-width="0.8"/>
+    </pattern>
+    <!-- Ceiling hatch -->
+    <pattern id="ceiling-hatch" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#f0ede8"/>
+      <line x1="0" y1="10" x2="10" y2="0" stroke="#ccc5b8" stroke-width="0.6"/>
+      <line x1="-5" y1="5" x2="5" y2="-5" stroke="#ccc5b8" stroke-width="0.6"/>
+    </pattern>
+    <!-- Dimension arrows -->
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <marker id="arr-r" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <!-- LED strip glow filter -->
+    <filter id="led-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Projector beam gradient -->
+    <linearGradient id="proj-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffaa" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffffaa" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ══════════════════════════════════════════════════════
+       BACKGROUND
+       ══════════════════════════════════════════════════════ -->
+  <rect width="1191" height="840" fill="#f5f5f0"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       TITLE BLOCK
+       ══════════════════════════════════════════════════════ -->
+  <g id="title-block">
+    <rect x="0" y="785" width="1191" height="55" fill="#1a2744"/>
+    <rect x="0" y="783" width="1191" height="2" fill="#2e5fa3"/>
+    <text x="20" y="806" font-size="11" font-weight="bold" fill="#ffffff">Dame Hannah Rogers Trust</text>
+    <text x="20" y="822" font-size="9" fill="#aabbdd">Woodland Road, Ivybridge, PL21 9HQ</text>
+    <text x="595" y="804" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">SENSORY ROOM REFURBISHMENT</text>
+    <text x="595" y="821" text-anchor="middle" font-size="11" fill="#88aadd">North Wall Elevation — Feature / Projection Wall</text>
+    <text x="595" y="834" text-anchor="middle" font-size="9" fill="#667799">All dimensions indicative — confirm on site. For Planning Purposes Only.</text>
+    <line x1="850" y1="783" x2="850" y2="840" stroke="#2e5fa3" stroke-width="1"/>
+    <line x1="1000" y1="783" x2="1000" y2="840" stroke="#2e5fa3" stroke-width="1"/>
+    <text x="865" y="797" font-size="8" fill="#aabbdd">Drawing No.</text>
+    <text x="865" y="809" font-size="10" font-weight="bold" fill="#ffffff">DHR-SR-02</text>
+    <text x="865" y="822" font-size="8" fill="#aabbdd">Revision</text>
+    <text x="865" y="833" font-size="10" font-weight="bold" fill="#ffffff">Rev A (Draft)</text>
+    <text x="1010" y="797" font-size="8" fill="#aabbdd">Scale</text>
+    <text x="1010" y="809" font-size="10" font-weight="bold" fill="#ffffff">1:25 @ A3</text>
+    <text x="1010" y="822" font-size="8" fill="#aabbdd">Date</text>
+    <text x="1010" y="833" font-size="10" font-weight="bold" fill="#ffffff">March 2026</text>
+    <text x="1100" y="797" font-size="8" fill="#aabbdd">Status</text>
+    <text x="1100" y="809" font-size="9" font-weight="bold" fill="#f0c040">DRAFT</text>
+    <text x="1100" y="822" font-size="8" fill="#aabbdd">Checked</text>
+    <text x="1100" y="833" font-size="9" fill="#aabbdd">TBC</text>
+  </g>
+
+  <!-- Border -->
+  <rect x="8" y="8" width="1175" height="775" fill="none" stroke="#1a2744" stroke-width="2"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       ELEVATION DRAWING
+       Wall width: 5.9m × scale 1:25 → 236px per metre
+       Room height: 2.4m → 568px
+       Origin: x=80, y=40 (top-left of drawing area)
+       Wall face: x=100, top=60, w=756, h=580
+       Floor: y=640
+       Ceiling: y=60
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- CEILING STRUCTURE -->
+  <rect id="ceiling-structure" x="80" y="40" width="796" height="30" fill="url(#ceiling-hatch)" stroke="#555" stroke-width="1.5"/>
+  <text x="178" y="58" font-size="9" fill="#555">Ceiling / Suspended Ceiling (existing)</text>
+
+  <!-- FLOOR STRUCTURE -->
+  <rect id="floor-structure" x="80" y="640" width="796" height="30" fill="#c8b898" stroke="#555" stroke-width="1.5"/>
+  <text x="120" y="658" font-size="9" fill="#555">Floor (existing)</text>
+
+  <!-- ROOM LEFT SIDE WALL (shown in section) -->
+  <rect x="80" y="40" width="20" height="630" fill="#d8cfc0" stroke="#555" stroke-width="1.5"/>
+
+  <!-- ROOM RIGHT SIDE WALL (shown in section) -->
+  <rect x="856" y="40" width="20" height="630" fill="#d8cfc0" stroke="#555" stroke-width="1.5"/>
+
+  <!-- NORTH WALL FACE (what we're looking at) -->
+  <rect id="wall-face" x="100" y="70" width="756" height="570" fill="#ece8e0" stroke="#555" stroke-width="1.5"/>
+
+  <!-- WALL PADDING (bottom 1.2m = 284px) -->
+  <rect id="wall-padding-lower" x="100" y="355" width="756" height="285"
+        fill="url(#wall-pad-h)" stroke="#7799bb" stroke-width="1"/>
+  <text x="478" y="508" text-anchor="middle" font-size="9" fill="#336699">Wall Padding — So Sensory Q3 (height TBC, shown at ~1.2m)</text>
+
+  <!-- FLOOR PADDING -->
+  <rect id="floor-padding" x="100" y="610" width="756" height="30"
+        fill="url(#floor-pad-h)" stroke="#7799bb" stroke-width="1"/>
+  <text x="478" y="627" text-anchor="middle" font-size="9" fill="#336699">Floor Padding</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       EQUIPMENT ON NORTH WALL
+       ══════════════════════════════════════════════════════ -->
+
+  <!-- 1. PROJECTION SCREEN AREA (upper centre of wall) -->
+  <rect id="projection-screen-area" x="230" y="85" width="396" height="220"
+        fill="#fffde8" stroke="#cccc00" stroke-width="2" rx="4"/>
+  <rect x="232" y="87" width="392" height="216" fill="none" stroke="#eeee88" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="428" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#999922">PROJECTION</text>
+  <text x="428" y="198" text-anchor="middle" font-size="11" fill="#999922">SCREEN AREA</text>
+  <text x="428" y="216" text-anchor="middle" font-size="9" fill="#bbbb44">(wall-mounted, flush)</text>
+  <text x="428" y="232" text-anchor="middle" font-size="9" fill="#bbbb44">Approx. 3.3m × 1.85m</text>
+  <!-- Screen border -->
+  <rect x="235" y="90" width="386" height="6" fill="#666" rx="1"/><!-- top frame -->
+  <rect x="235" y="299" width="386" height="6" fill="#666" rx="1"/><!-- bottom frame -->
+  <rect x="235" y="90" width="6" height="215" fill="#666" rx="1"/><!-- left frame -->
+  <rect x="615" y="90" width="6" height="215" fill="#666" rx="1"/><!-- right frame -->
+
+  <!-- 2. HD ULTRA SHORT THROW PROJECTOR (ceiling mount, above screen centre) -->
+  <g id="projector-unit">
+    <!-- Mounting bracket -->
+    <rect x="408" y="55" width="40" height="16" rx="2" fill="#999" stroke="#333" stroke-width="1.5"/>
+    <line x1="428" y1="68" x2="428" y2="80" stroke="#333" stroke-width="2"/>
+    <!-- Projector body -->
+    <rect x="400" y="76" width="56" height="32" rx="3" fill="#ddd" stroke="#333" stroke-width="1.5"/>
+    <circle cx="440" cy="92" r="10" fill="none" stroke="#333" stroke-width="1.2"/>
+    <circle cx="440" cy="92" r="4" fill="#666"/>
+    <!-- Lens highlight -->
+    <circle cx="438" cy="90" r="2" fill="white" opacity="0.7"/>
+    <!-- Projection beam -->
+    <path d="M 420,108 L 234,305 L 622,305" fill="url(#proj-beam)" stroke="none"/>
+    <text x="428" y="123" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">PROJECTOR</text>
+    <text x="428" y="133" text-anchor="middle" font-size="7" fill="#555">HD Ultra Short Throw</text>
+    <text x="428" y="143" text-anchor="middle" font-size="7" fill="#555">Wall Mount</text>
+  </g>
+
+  <!-- 3. APPLE TV / AV UNIT (below projector, left of screen) -->
+  <g id="apple-tv">
+    <rect x="150" y="200" width="50" height="30" rx="3" fill="#222" stroke="#555" stroke-width="1.5"/>
+    <rect x="155" y="204" width="40" height="22" rx="2" fill="#1a1a1a"/>
+    <circle cx="175" cy="215" r="4" fill="#333"/>
+    <text x="175" y="244" text-anchor="middle" font-size="8" fill="#333">AV / Apple TV</text>
+    <!-- Cable run to projector -->
+    <path d="M 200,215 Q 300,215 400,92" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="280" y="165" font-size="7" fill="#888">cable</text>
+  </g>
+
+  <!-- 4. GALAXY STAR PROJECTOR (ceiling, right side) -->
+  <g id="galaxy-proj">
+    <line x1="700" y1="70" x2="700" y2="90" stroke="#333" stroke-width="1.5"/>
+    <circle cx="700" cy="100" r="18" fill="#1a1a3e" stroke="#6666ff" stroke-width="2"/>
+    <circle cx="700" cy="100" r="7" fill="#6666ff"/>
+    <!-- Star beams -->
+    <line x1="700" y1="82" x2="700" y2="72" stroke="#9999ff" stroke-width="0.8"/>
+    <line x1="718" y1="100" x2="728" y2="100" stroke="#9999ff" stroke-width="0.8"/>
+    <line x1="714" y1="86" x2="722" y2="78" stroke="#9999ff" stroke-width="0.8"/>
+    <text x="700" y="132" text-anchor="middle" font-size="8" fill="#333">Galaxy Star</text>
+    <text x="700" y="142" text-anchor="middle" font-size="8" fill="#333">Projector</text>
+  </g>
+
+  <!-- 5. FIBRE OPTIC CEILING PANEL (ceiling left side) -->
+  <g id="fibre-optic-panel">
+    <rect x="100" y="70" width="110" height="80" fill="none" stroke="#9933cc" stroke-width="1.5" stroke-dasharray="5,3" rx="2"/>
+    <circle cx="140" cy="90" r="4" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <circle cx="160" cy="100" r="3" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <circle cx="130" cy="115" r="3.5" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <circle cx="155" cy="130" r="3" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <circle cx="175" cy="110" r="2.5" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <circle cx="145" cy="140" r="3" fill="#cc99ff" stroke="#9933cc" stroke-width="1"/>
+    <text x="155" y="164" text-anchor="middle" font-size="8" fill="#9933cc">Fibre Optic</text>
+    <text x="155" y="174" text-anchor="middle" font-size="8" fill="#9933cc">Ceiling Panel</text>
+  </g>
+
+  <!-- 6. MIRROR BALL (ceiling, centre-left) -->
+  <g id="mirror-ball-elev">
+    <line x1="330" y1="70" x2="330" y2="96" stroke="#333" stroke-width="1.5"/>
+    <circle cx="330" cy="108" r="18" fill="none" stroke="#888" stroke-width="1.5"/>
+    <!-- Mirror facets -->
+    <path d="M 330,90 L 348,108 L 330,126 L 312,108 Z" fill="#ccc" stroke="#888" stroke-width="0.8" opacity="0.7"/>
+    <line x1="312" y1="108" x2="348" y2="108" stroke="#aaa" stroke-width="0.8"/>
+    <line x1="330" y1="90" x2="330" y2="126" stroke="#aaa" stroke-width="0.8"/>
+    <circle cx="330" cy="108" r="6" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+    <!-- Spotlight -->
+    <rect x="316" y="55" width="28" height="14" rx="3" fill="#555" stroke="#333" stroke-width="1"/>
+    <path d="M 318,69 L 310,90 L 350,90 L 342,69 Z" fill="#ffffaa" opacity="0.3"/>
+    <text x="330" y="142" text-anchor="middle" font-size="8" fill="#333">Mirror Ball</text>
+    <text x="330" y="152" text-anchor="middle" font-size="8" fill="#333">+ Spotlight</text>
+  </g>
+
+  <!-- 7. LED SURROUND LIGHTING (ceiling perimeter strip) -->
+  <rect id="led-surround-ceiling" x="100" y="70" width="756" height="8"
+        fill="#ffaa00" stroke="#cc7700" stroke-width="0.8" rx="2" opacity="0.8"
+        filter="url(#led-glow)"/>
+  <text x="478" y="67" text-anchor="middle" font-size="8" fill="#cc7700">LED Surround Lighting Strip (ceiling perimeter)</text>
+
+  <!-- 8. UV LED LIGHT BAR 1 (left side, wall mount at ~1.8m height) -->
+  <g id="uv-bar-left">
+    <rect x="103" y="280" width="16" height="60" rx="8" fill="#cc66ff" stroke="#7722cc" stroke-width="1.5"/>
+    <rect x="106" y="284" width="10" height="52" rx="5" fill="#ee99ff" opacity="0.7"/>
+    <text x="130" y="315" font-size="8" fill="#7722cc">UV Bar 1</text>
+    <!-- Height indicator -->
+    <line x1="140" y1="280" x2="140" y2="340" stroke="#cc66ff" stroke-width="0.8" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 9. UV LED LIGHT BAR 2 (right side, wall mount) -->
+  <g id="uv-bar-right">
+    <rect x="737" y="280" width="16" height="60" rx="8" fill="#cc66ff" stroke="#7722cc" stroke-width="1.5"/>
+    <rect x="740" y="284" width="10" height="52" rx="5" fill="#ee99ff" opacity="0.7"/>
+    <text x="718" y="315" font-size="8" fill="#7722cc" text-anchor="end">UV Bar 2</text>
+  </g>
+
+  <!-- 10. BLUETOOTH SWITCH PANELS (wall, near right side at ~1.0m height) -->
+  <g id="bt-switch-panel-right">
+    <rect x="745" y="430" width="24" height="32" rx="2" fill="#e0e8f0" stroke="#336699" stroke-width="1.5"/>
+    <circle cx="752" cy="440" r="3" fill="#336699"/>
+    <circle cx="762" cy="440" r="3" fill="#336699"/>
+    <rect x="749" y="449" width="14" height="3" rx="1" fill="#336699"/>
+    <rect x="749" y="455" width="14" height="3" rx="1" fill="#336699"/>
+    <text x="757" y="476" text-anchor="middle" font-size="8" fill="#336699">BT Panel</text>
+    <text x="757" y="486" text-anchor="middle" font-size="7" fill="#336699">(×10 total)</text>
+  </g>
+
+  <!-- 11. CHROMATUBE COLUMN (free-standing on floor, left of centre) -->
+  <g id="chromatube-elev">
+    <!-- Base -->
+    <ellipse cx="190" cy="610" rx="18" ry="8" fill="#99ccff" stroke="#336699" stroke-width="1.5"/>
+    <!-- Column body -->
+    <rect x="176" y="420" width="28" height="190" rx="14" fill="#99ccff" stroke="#336699" stroke-width="1.5"/>
+    <!-- Water bubbles -->
+    <ellipse cx="190" cy="460" rx="6" ry="5" fill="white" opacity="0.5"/>
+    <ellipse cx="190" cy="490" rx="5" ry="4" fill="white" opacity="0.4"/>
+    <ellipse cx="190" cy="520" rx="5" ry="5" fill="white" opacity="0.45"/>
+    <ellipse cx="190" cy="550" rx="4" ry="4" fill="white" opacity="0.35"/>
+    <ellipse cx="190" cy="575" rx="5" ry="4" fill="white" opacity="0.4"/>
+    <!-- Top -->
+    <ellipse cx="190" cy="420" rx="18" ry="8" fill="#bbdeff" stroke="#336699" stroke-width="1.5"/>
+    <text x="190" y="406" text-anchor="middle" font-size="8" font-weight="bold" fill="#336699">CHR</text>
+    <text x="190" y="396" text-anchor="middle" font-size="7" fill="#336699">Chromatube+</text>
+    <!-- height dimension -->
+    <line x1="160" y1="420" x2="160" y2="610" stroke="#336699" stroke-width="0.8"
+          marker-start="url(#arr-r)" marker-end="url(#arr)"/>
+    <text x="148" y="520" text-anchor="middle" font-size="7" fill="#336699" transform="rotate(-90,148,520)">~1.5m h</text>
+  </g>
+
+  <!-- 12. CORNER PLINTH (right corner) -->
+  <g id="corner-plinth-elev">
+    <rect x="790" y="480" width="66" height="130" fill="#f0e8d0" stroke="#8b7355" stroke-width="1.5"/>
+    <rect x="794" y="484" width="58" height="122" fill="#d4c4a0" stroke="#8b7355" stroke-width="0.8"/>
+    <!-- Mirror on back board -->
+    <rect x="800" y="490" width="46" height="60" fill="#c8d8e8" stroke="#666" stroke-width="1"/>
+    <rect x="803" y="493" width="40" height="54" fill="#d8eaf8" opacity="0.7"/>
+    <!-- Plinth base -->
+    <rect x="788" y="600" width="78" height="10" fill="#c4b080" stroke="#8b7355" stroke-width="1"/>
+    <text x="823" y="625" text-anchor="middle" font-size="8" fill="#554433">Corner Plinth</text>
+    <text x="823" y="635" text-anchor="middle" font-size="7" fill="#554433">+ Mirror</text>
+  </g>
+
+  <!-- 13. UV REACTIVE HANGING STARS (ceiling, scattered) -->
+  <g id="uv-stars-hanging" opacity="0.8">
+    <circle cx="560" cy="95" r="5" fill="#ffccff" stroke="#cc00cc" stroke-width="1"/>
+    <line x1="560" y1="70" x2="560" y2="90" stroke="#cc00cc" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <circle cx="590" cy="110" r="4" fill="#ffccff" stroke="#cc00cc" stroke-width="0.8"/>
+    <line x1="590" y1="70" x2="590" y2="106" stroke="#cc00cc" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <circle cx="540" cy="115" r="3.5" fill="#ffccff" stroke="#cc00cc" stroke-width="0.8"/>
+    <line x1="540" y1="70" x2="540" y2="111.5" stroke="#cc00cc" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <text x="565" y="145" text-anchor="middle" font-size="7" fill="#cc00cc">UV Stars / Solar</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       DIMENSION LINES
+       ══════════════════════════════════════════════════════ -->
+  <g id="dimensions" stroke="#333" stroke-width="0.9" fill="none">
+    <!-- Total wall width -->
+    <line x1="100" y1="745" x2="856" y2="745"
+          marker-start="url(#arr-r)" marker-end="url(#arr)"/>
+    <line x1="100" y1="735" x2="100" y2="755" stroke="#333"/>
+    <line x1="856" y1="735" x2="856" y2="755" stroke="#333"/>
+    <rect x="438" y="738" width="82" height="14" fill="#f5f5f0"/>
+    <text x="478" y="749" text-anchor="middle" font-size="10" fill="#333">≈ 5.9m width</text>
+
+    <!-- Wall height -->
+    <line x1="28" y1="70" x2="28" y2="640"
+          marker-start="url(#arr-r)" marker-end="url(#arr)"/>
+    <line x1="18" y1="70" x2="38" y2="70" stroke="#333"/>
+    <line x1="18" y1="640" x2="38" y2="640" stroke="#333"/>
+    <text x="16" y="370" text-anchor="middle" font-size="10" fill="#333" transform="rotate(-90,16,370)">≈ 2.4m height</text>
+
+    <!-- Padding height -->
+    <line x1="55" y1="355" x2="55" y2="640"
+          marker-start="url(#arr-r)" marker-end="url(#arr)" stroke="#7799bb"/>
+    <line x1="45" y1="355" x2="65" y2="355" stroke="#7799bb"/>
+    <line x1="45" y1="640" x2="65" y2="640" stroke="#7799bb"/>
+    <text x="43" y="508" text-anchor="middle" font-size="8" fill="#7799bb" transform="rotate(-90,43,508)">~1.2m pad</text>
+
+    <!-- Screen width -->
+    <line x1="234" y1="320" x2="622" y2="320"
+          marker-start="url(#arr-r)" marker-end="url(#arr)" stroke="#999922"/>
+    <rect x="385" y="313" width="82" height="12" fill="#f5f5f0"/>
+    <text x="428" y="323" text-anchor="middle" font-size="9" fill="#999922">≈ 3.3m screen</text>
+
+    <!-- Screen height -->
+    <line x1="635" y1="87" x2="635" y2="305"
+          marker-start="url(#arr-r)" marker-end="url(#arr)" stroke="#999922"/>
+    <text x="660" y="200" font-size="9" fill="#999922">≈ 1.85m</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       CALL-OUT LABELS (leader lines)
+       ══════════════════════════════════════════════════════ -->
+  <g id="callouts" font-size="8" fill="#1a2744">
+    <!-- LED strip -->
+    <line x1="478" y1="78" x2="478" y2="58" stroke="#cc7700" stroke-width="0.8"/>
+    <!-- Projector already labelled -->
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       LEGEND (right panel)
+       ══════════════════════════════════════════════════════ -->
+  <g id="legend">
+    <rect x="880" y="50" width="295" height="720" rx="4" fill="white" stroke="#999" stroke-width="1" opacity="0.95"/>
+    <rect x="880" y="50" width="295" height="28" rx="4" fill="#1a2744"/>
+    <text x="1027" y="69" text-anchor="middle" font-size="12" font-weight="bold" fill="white">LEGEND</text>
+
+    <!-- Items -->
+    <rect x="893" y="88" width="20" height="12" fill="url(#wall-pad-h)" stroke="#88aacc" stroke-width="1"/>
+    <text x="920" y="99" font-size="9" fill="#333">Wall padding (So Sensory Q3)</text>
+
+    <rect x="893" y="108" width="20" height="12" fill="url(#floor-pad-h)" stroke="#aad4e8" stroke-width="1"/>
+    <text x="920" y="119" font-size="9" fill="#333">Floor padding (So Sensory Q3)</text>
+
+    <rect x="893" y="128" width="20" height="8" fill="#ffaa00" rx="2" opacity="0.8"/>
+    <text x="920" y="138" font-size="9" fill="#333">LED surround lighting (ceiling)</text>
+
+    <line x1="893" y1="155" x2="1165" y2="155" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1027" y="170" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">EQUIPMENT</text>
+
+    <!-- Projector -->
+    <rect x="893" y="178" width="22" height="12" rx="2" fill="#ddd" stroke="#333" stroke-width="1"/>
+    <text x="920" y="189" font-size="9" fill="#333">HD Ultra Short Throw Projector</text>
+
+    <!-- Screen -->
+    <rect x="893" y="200" width="22" height="12" fill="#fffde8" stroke="#cccc00" stroke-width="1.5"/>
+    <text x="920" y="211" font-size="9" fill="#333">Projection Screen Area</text>
+
+    <!-- Mirror ball -->
+    <circle cx="903" cy="228" r="7" fill="none" stroke="#888" stroke-width="1.5"/>
+    <circle cx="903" cy="228" r="3" fill="#e8e8e8" stroke="#999" stroke-width="0.8"/>
+    <text x="920" y="232" font-size="9" fill="#333">Mirror Ball + Motor + Spotlight</text>
+
+    <!-- Galaxy star -->
+    <circle cx="903" cy="250" r="7" fill="#1a1a3e" stroke="#6666ff" stroke-width="1.5"/>
+    <circle cx="903" cy="250" r="3" fill="#6666ff"/>
+    <text x="920" y="254" font-size="9" fill="#333">Galaxy Star Projector (wall)</text>
+
+    <!-- Fibre optic -->
+    <rect x="893" y="262" width="22" height="16" fill="none" stroke="#9933cc" stroke-width="1" stroke-dasharray="3,2" rx="2"/>
+    <circle cx="903" cy="270" r="3" fill="#cc99ff" stroke="#9933cc"/>
+    <text x="920" y="273" font-size="9" fill="#333">Fibre Optic Ceiling Panel</text>
+
+    <!-- UV stars -->
+    <circle cx="903" cy="292" r="5" fill="#ffccff" stroke="#cc00cc" stroke-width="1"/>
+    <text x="920" y="296" font-size="9" fill="#333">UV Reactive Stars / Solar System</text>
+
+    <!-- UV bar -->
+    <rect x="896" y="307" width="14" height="10" rx="5" fill="#cc66ff" stroke="#7722cc" stroke-width="1"/>
+    <text x="920" y="316" font-size="9" fill="#333">UV LED Light Bar (×2)</text>
+
+    <!-- Chromatube -->
+    <rect x="896" y="326" width="14" height="22" rx="7" fill="#99ccff" stroke="#336699" stroke-width="1.5"/>
+    <text x="920" y="338" font-size="9" fill="#333">Chromatube+ (free-standing)</text>
+
+    <!-- Corner plinth -->
+    <rect x="896" y="356" width="14" height="18" fill="#f0e8d0" stroke="#8b7355" stroke-width="1"/>
+    <text x="920" y="368" font-size="9" fill="#333">Corner Plinth + Backboard + Mirror</text>
+
+    <!-- BT panel -->
+    <rect x="896" y="378" width="14" height="18" rx="1" fill="#e0e8f0" stroke="#336699" stroke-width="1"/>
+    <text x="920" y="389" font-size="9" fill="#333">Bluetooth Switch Panels (×10)</text>
+
+    <!-- Apple TV -->
+    <rect x="896" y="400" width="14" height="10" rx="1" fill="#222" stroke="#555" stroke-width="1"/>
+    <text x="920" y="410" font-size="9" fill="#333">AV Unit / Apple TV</text>
+
+    <!-- Separator -->
+    <line x1="893" y1="424" x2="1165" y2="424" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1027" y="440" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">NOTES</text>
+
+    <text x="893" y="456" font-size="8" fill="#333">① All dimensions indicative only.</text>
+    <text x="893" y="470" font-size="8" fill="#333">  Verify actual room height on site.</text>
+    <text x="893" y="485" font-size="8" fill="#333">② This elevation shows the north</text>
+    <text x="893" y="499" font-size="8" fill="#333">  (feature/projector) wall only.</text>
+    <text x="893" y="514" font-size="8" fill="#333">③ Ceiling suspension / rigging details</text>
+    <text x="893" y="528" font-size="8" fill="#333">  for mirror ball to be confirmed.</text>
+    <text x="893" y="543" font-size="8" fill="#333">④ Electrical conduit / socket positions</text>
+    <text x="893" y="557" font-size="8" fill="#333">  NOT shown (electrical survey gap T2).</text>
+    <text x="893" y="572" font-size="8" fill="#333">⑤ Laser Lights (×2) ceiling-mounted;</text>
+    <text x="893" y="586" font-size="8" fill="#333">  exact positions subject to survey.</text>
+
+    <!-- Separator -->
+    <line x1="893" y1="600" x2="1165" y2="600" stroke="#ccc" stroke-width="0.5"/>
+    <text x="1027" y="617" text-anchor="middle" font-size="9" font-weight="bold" fill="#1a2744">HOW TO EDIT</text>
+    <text x="893" y="633" font-size="8" fill="#444">Open .svg in Inkscape (free) or any</text>
+    <text x="893" y="647" font-size="8" fill="#444">vector editor. Each item is a named</text>
+    <text x="893" y="661" font-size="8" fill="#444">group — click to select and move.</text>
+    <text x="893" y="676" font-size="8" fill="#2255aa">inkscape.org  (free, open source)</text>
+    <text x="893" y="692" font-size="8" fill="#666">Drawing: DHR-SR-02 Rev A Draft</text>
+    <text x="893" y="706" font-size="8" fill="#666">March 2026 — For planning only</text>
+
+    <!-- Scale bar -->
+    <line x1="893" y1="728" x2="1163" y2="728" stroke="#ccc" stroke-width="0.5"/>
+    <text x="893" y="742" font-size="8" font-weight="bold" fill="#333">SCALE BAR (1:25 @ A3)</text>
+    <rect x="893" y="750" width="27" height="8" fill="#333"/>
+    <rect x="920" y="750" width="27" height="8" fill="white" stroke="#333" stroke-width="1"/>
+    <rect x="947" y="750" width="27" height="8" fill="#333"/>
+    <rect x="974" y="750" width="27" height="8" fill="white" stroke="#333" stroke-width="1"/>
+    <text x="893" y="768" font-size="7" fill="#333">0</text>
+    <text x="946" y="768" font-size="7" fill="#333">1m</text>
+    <text x="1001" y="768" font-size="7" fill="#333">2m</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════════
+       DRAWING TITLE
+       ══════════════════════════════════════════════════════ -->
+  <text x="490" y="33" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a2744">
+    NORTH WALL ELEVATION — FEATURE / PROJECTION WALL
+  </text>
+  <text x="490" y="47" text-anchor="middle" font-size="9" fill="#555">
+    (Looking North from room interior · Indicative Only)
+  </text>
+
+</svg>
